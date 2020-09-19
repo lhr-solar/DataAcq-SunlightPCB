@@ -13,4 +13,91 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5FB64207
+P 4400 4650
+F 0 "J?" H 4500 4625 50  0000 L CNN
+F 1 "SMAConn" H 4500 4534 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" H 4400 4650 50  0001 C CNN
+F 3 " ~" H 4400 4650 50  0001 C CNN
+	1    4400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L utsvt-chips:MTK3339 U?
+U 1 1 5FB7A882
+P 3450 3650
+F 0 "U?" H 3450 3815 50  0000 C CNN
+F 1 "MTK3339" H 3450 3724 50  0000 C CNN
+F 2 "" H 3450 3650 50  0001 C CNN
+F 3 "" H 3450 3650 50  0001 C CNN
+	1    3450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB7D6FC
+P 4400 5050
+F 0 "#PWR?" H 4400 4800 50  0001 C CNN
+F 1 "GND" H 4405 4877 50  0000 C CNN
+F 2 "" H 4400 5050 50  0001 C CNN
+F 3 "" H 4400 5050 50  0001 C CNN
+	1    4400 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5050 4400 4950
+Wire Wire Line
+	4000 4650 4200 4650
+Wire Wire Line
+	4400 4950 4100 4950
+Wire Wire Line
+	4100 4950 4100 4550
+Wire Wire Line
+	4100 4550 4000 4550
+Connection ~ 4400 4950
+Wire Wire Line
+	4400 4950 4400 4850
+Wire Wire Line
+	4100 4550 4100 3850
+Wire Wire Line
+	4100 3850 4000 3850
+Connection ~ 4100 4550
+NoConn ~ 4000 4350
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB7FD95
+P 2800 3650
+F 0 "#PWR?" H 2800 3500 50  0001 C CNN
+F 1 "+3.3V" H 2815 3823 50  0000 C CNN
+F 2 "" H 2800 3650 50  0001 C CNN
+F 3 "" H 2800 3650 50  0001 C CNN
+	1    2800 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3650 2800 3750
+Wire Wire Line
+	2800 3750 2900 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5FB808F2
+P 2800 4750
+F 0 "#PWR?" H 2800 4500 50  0001 C CNN
+F 1 "GND" H 2805 4577 50  0000 C CNN
+F 2 "" H 2800 4750 50  0001 C CNN
+F 3 "" H 2800 4750 50  0001 C CNN
+	1    2800 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4750 2800 4450
+Wire Wire Line
+	2800 4450 2900 4450
+Wire Wire Line
+	2800 4450 2800 3950
+Wire Wire Line
+	2800 3950 2900 3950
+Connection ~ 2800 4450
 $EndSCHEMATC
