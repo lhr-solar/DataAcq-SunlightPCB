@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -495,16 +495,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5F80DE85
-P 6050 2600
-F 0 "#PWR?" H 6050 2350 50  0001 C CNN
-F 1 "GND" V 6055 2472 50  0000 R CNN
-F 2 "" H 6050 2600 50  0001 C CNN
-F 3 "" H 6050 2600 50  0001 C CNN
-	1    6050 2600
+P 5900 2600
+F 0 "#PWR?" H 5900 2350 50  0001 C CNN
+F 1 "GND" V 5905 2472 50  0000 R CNN
+F 2 "" H 5900 2600 50  0001 C CNN
+F 3 "" H 5900 2600 50  0001 C CNN
+	1    5900 2600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6050 2600 6550 2600
+	5900 2600 6550 2600
 Wire Wire Line
 	6550 3000 6450 3000
 $Comp
@@ -518,7 +518,7 @@ F 3 "" H 6450 2200 50  0001 C CNN
 	1    6450 2200
 	1    0    0    -1  
 $EndComp
-Text Label 6050 2300 0    50   ~ 0
+Text Label 5900 2300 0    50   ~ 0
 NRST
 $Comp
 L Device:Crystal_Small Y?
@@ -607,7 +607,7 @@ Wire Wire Line
 Connection ~ 5650 3300
 Connection ~ 5650 3600
 Wire Wire Line
-	6050 2300 6550 2300
+	5900 2300 6550 2300
 Wire Wire Line
 	6450 2200 6450 2400
 Wire Wire Line
@@ -952,6 +952,10 @@ S 1000 4400 1000 500
 U 5F6EFD51
 F0 "GPS" 50
 F1 "GPS.sch" 50
+F2 "1PPS" O R 2000 4800 50 
+F3 "UART_TX" O R 2000 4600 50 
+F4 "UART_RX" I R 2000 4500 50 
+F5 "FIX" O R 2000 4700 50 
 $EndSheet
 $Sheet
 S 1000 3550 1000 500 
@@ -983,4 +987,366 @@ F1 "CAN.sch" 50
 F2 "CAN_TX" I R 2000 1950 50 
 F3 "CAN_RX" O R 2000 2050 50 
 $EndSheet
+Text Notes 1550 5000 0    50   ~ 0
+Baud: 9600
+Text Notes 1000 4850 0    50   ~ 0
+uC Tx -> UART Rx\nuC Rx -> UART Tx
+$Sheet
+S 1000 8600 1000 500 
+U 5F683C38
+F0 "LEDs" 50
+F1 "LEDs.sch" 50
+$EndSheet
+Wire Wire Line
+	8950 3600 9600 3600
+Wire Wire Line
+	9600 3700 8950 3700
+Text Label 9600 3600 2    50   ~ 0
+SWDIO
+Text Label 9600 3700 2    50   ~ 0
+SWCLK
+Wire Wire Line
+	8950 4800 9600 4800
+Wire Wire Line
+	9600 4900 8950 4900
+Text Label 9600 4900 2    50   ~ 0
+CAN1_TX
+Text Label 9600 4800 2    50   ~ 0
+CAN1_RX
+Wire Wire Line
+	2000 2050 2650 2050
+Wire Wire Line
+	2650 1950 2000 1950
+Text Label 2650 1950 2    50   ~ 0
+CAN1_TX
+Text Label 2650 2050 2    50   ~ 0
+CAN1_RX
+Wire Wire Line
+	9000 1450 9500 1450
+Wire Wire Line
+	9500 1550 9000 1550
+Wire Wire Line
+	8950 8200 9600 8200
+Wire Wire Line
+	9600 8300 8950 8300
+Text Label 9600 8200 2    50   ~ 0
+USART3_TX
+Text Label 9600 8300 2    50   ~ 0
+USART3_RX
+Wire Wire Line
+	2000 2800 2650 2800
+Wire Wire Line
+	2650 2900 2000 2900
+Text Label 2650 2800 2    50   ~ 0
+USART3_TX
+Text Label 2650 2900 2    50   ~ 0
+USART3_RX
+Text Label 9500 1550 2    50   ~ 0
+USART2_RX
+Text Label 9500 1450 2    50   ~ 0
+USART2_TX
+Wire Wire Line
+	6550 6400 5900 6400
+Wire Wire Line
+	5900 6500 6550 6500
+Wire Wire Line
+	6550 6600 5900 6600
+Text Label 5900 6400 0    50   ~ 0
+SPI5_CLK
+Text Label 5900 6500 0    50   ~ 0
+SPI5_MISO
+Text Label 5900 6600 0    50   ~ 0
+SPI5_MOSI
+Wire Wire Line
+	6550 6300 5900 6300
+Wire Wire Line
+	2000 6100 2650 6100
+Wire Wire Line
+	2650 6300 2000 6300
+Wire Wire Line
+	2000 6200 2650 6200
+Text Label 2650 6100 2    50   ~ 0
+SPI5_CLK
+Text Label 2650 6300 2    50   ~ 0
+SPI5_MISO
+Text Label 2650 6200 2    50   ~ 0
+SPI5_MOSI
+Wire Wire Line
+	2000 6400 2650 6400
+Text Label 2650 6400 2    50   ~ 0
+SPI5_CS
+Wire Wire Line
+	6550 6700 5900 6700
+Text Label 5900 6700 0    50   ~ 0
+SD_DET
+Wire Wire Line
+	6550 5100 5900 5100
+Text Label 5900 5100 0    50   ~ 0
+RMII_TX_EN
+Wire Wire Line
+	6550 5300 5900 5300
+Wire Wire Line
+	9600 5300 8950 5300
+Text Label 5900 5300 0    50   ~ 0
+RMII_TXD0
+Text Label 9600 5300 2    50   ~ 0
+RMII_TXD1
+Wire Wire Line
+	2000 7050 2650 7050
+Text Label 2650 7050 2    50   ~ 0
+RMII_TX_EN
+Wire Wire Line
+	2000 7150 2650 7150
+Text Label 2650 7150 2    50   ~ 0
+RMII_TXD0
+Wire Wire Line
+	2650 7250 2000 7250
+Text Label 2650 7250 2    50   ~ 0
+RMII_TXD1
+Wire Wire Line
+	8950 6100 9600 6100
+Wire Wire Line
+	9600 6200 8950 6200
+Text Label 9600 6100 2    50   ~ 0
+RMII_RXD0
+Text Label 9600 6200 2    50   ~ 0
+RMII_RXD1
+Wire Wire Line
+	2000 7400 2650 7400
+Wire Wire Line
+	2650 7500 2000 7500
+Text Label 2650 7400 2    50   ~ 0
+RMII_RXD0
+Text Label 2650 7500 2    50   ~ 0
+RMII_RXD1
+Wire Wire Line
+	8950 3000 9600 3000
+Text Label 9600 3000 2    50   ~ 0
+RMII_CRS_DV
+Wire Wire Line
+	2000 7650 2650 7650
+Text Label 2650 7650 2    50   ~ 0
+RMII_CRS_DV
+Wire Wire Line
+	2000 7800 2650 7800
+Wire Wire Line
+	2000 7900 2650 7900
+Wire Wire Line
+	2000 8050 2650 8050
+Wire Wire Line
+	2650 8150 2000 8150
+Wire Wire Line
+	8950 5800 9600 5800
+Text Label 9600 5800 2    50   ~ 0
+RMII_MDC
+Text Label 2650 7800 2    50   ~ 0
+RMII_MDC
+Wire Wire Line
+	8950 2500 9600 2500
+Text Label 9600 2500 2    50   ~ 0
+RMII_MDIO
+Text Label 2650 7900 2    50   ~ 0
+RMII_MDIO
+Wire Wire Line
+	8950 2400 9600 2400
+Text Label 9600 2400 2    50   ~ 0
+RMII_REF_CLK
+Text Label 5900 6300 0    50   ~ 0
+SPI5_CS
+Text Label 2650 8050 2    50   ~ 0
+NRST
+Text Label 2650 8150 2    50   ~ 0
+RMII_REF_CLK
+Wire Wire Line
+	2000 3950 2650 3950
+Wire Wire Line
+	8950 3200 9600 3200
+Wire Wire Line
+	8950 3300 9600 3300
+Text Label 9600 3300 2    50   ~ 0
+USART1_RX
+Text Label 9600 3200 2    50   ~ 0
+USART1_TX
+Wire Wire Line
+	8950 3400 9600 3400
+Wire Wire Line
+	8950 3100 9600 3100
+Text Label 9600 3100 2    50   ~ 0
+PA8
+Text Label 9600 3400 2    50   ~ 0
+PA11
+Wire Wire Line
+	2000 4500 2650 4500
+Wire Wire Line
+	2000 4600 2650 4600
+Text Label 2650 4600 2    50   ~ 0
+USART1_RX
+Text Label 2650 4500 2    50   ~ 0
+USART1_TX
+Wire Wire Line
+	2000 4800 2650 4800
+Wire Wire Line
+	2000 4700 2650 4700
+Text Label 2650 4700 2    50   ~ 0
+PA8
+Text Label 2650 4800 2    50   ~ 0
+PA11
+Text Label 9600 5000 2    50   ~ 0
+I2C2_SCL
+Text Label 9600 5100 2    50   ~ 0
+I2C2_SDA
+$Comp
+L Device:R R?
+U 1 1 5FB2F765
+P 10600 4750
+AR Path="/5F6CDFD6/5FB2F765" Ref="R?"  Part="1" 
+AR Path="/5FB2F765" Ref="R?"  Part="1" 
+F 0 "R?" H 10670 4796 50  0000 L CNN
+F 1 "4.7k" H 10670 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10530 4750 50  0001 C CNN
+F 3 "~" H 10600 4750 50  0001 C CNN
+	1    10600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB3BF16
+P 11000 4750
+AR Path="/5F6CDFD6/5FB3BF16" Ref="R?"  Part="1" 
+AR Path="/5FB3BF16" Ref="R?"  Part="1" 
+F 0 "R?" H 11070 4796 50  0000 L CNN
+F 1 "4.7k" H 11070 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10930 4750 50  0001 C CNN
+F 3 "~" H 11000 4750 50  0001 C CNN
+	1    11000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 5000 10600 4900
+Wire Wire Line
+	11000 5100 11000 4900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB560E4
+P 10600 4400
+F 0 "#PWR?" H 10600 4250 50  0001 C CNN
+F 1 "+3.3V" H 10615 4573 50  0000 C CNN
+F 2 "" H 10600 4400 50  0001 C CNN
+F 3 "" H 10600 4400 50  0001 C CNN
+	1    10600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 4400 10600 4500
+Wire Wire Line
+	10600 4500 11000 4500
+Wire Wire Line
+	11000 4500 11000 4600
+Connection ~ 10600 4500
+Wire Wire Line
+	10600 4500 10600 4600
+Text Label 2650 5350 2    50   ~ 0
+I2C2_SCL
+Text Label 2650 5450 2    50   ~ 0
+I2C2_SDA
+Wire Wire Line
+	2000 5350 2650 5350
+Wire Wire Line
+	2000 5450 2650 5450
+Wire Wire Line
+	8950 5200 9600 5200
+Text Label 9600 5200 2    50   ~ 0
+PB12
+Wire Wire Line
+	2000 5550 2650 5550
+Text Label 2650 5550 2    50   ~ 0
+PB12
+Wire Wire Line
+	2000 6500 2650 6500
+Text Label 2650 6500 2    50   ~ 0
+SD_DET
+Text Label 9600 4600 2    50   ~ 0
+I2C1_SCL
+Text Label 9600 4700 2    50   ~ 0
+I2C1_SDA
+Wire Wire Line
+	8950 4500 9600 4500
+Wire Wire Line
+	9600 4400 8950 4400
+Text Label 9600 4400 2    50   ~ 0
+PB4
+Text Label 9600 4500 2    50   ~ 0
+PB5
+$Comp
+L Device:R R?
+U 1 1 5FC25B5D
+P 9800 4350
+AR Path="/5F6CDFD6/5FC25B5D" Ref="R?"  Part="1" 
+AR Path="/5FC25B5D" Ref="R?"  Part="1" 
+F 0 "R?" H 9870 4396 50  0000 L CNN
+F 1 "4.7k" H 9870 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9730 4350 50  0001 C CNN
+F 3 "~" H 9800 4350 50  0001 C CNN
+	1    9800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC25B63
+P 10200 4350
+AR Path="/5F6CDFD6/5FC25B63" Ref="R?"  Part="1" 
+AR Path="/5FC25B63" Ref="R?"  Part="1" 
+F 0 "R?" H 10270 4396 50  0000 L CNN
+F 1 "4.7k" H 10270 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10130 4350 50  0001 C CNN
+F 3 "~" H 10200 4350 50  0001 C CNN
+	1    10200 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4600 9800 4500
+Wire Wire Line
+	10200 4700 10200 4500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC25B6B
+P 9800 4000
+F 0 "#PWR?" H 9800 3850 50  0001 C CNN
+F 1 "+3.3V" H 9815 4173 50  0000 C CNN
+F 2 "" H 9800 4000 50  0001 C CNN
+F 3 "" H 9800 4000 50  0001 C CNN
+	1    9800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4000 9800 4100
+Wire Wire Line
+	9800 4100 10200 4100
+Wire Wire Line
+	10200 4100 10200 4200
+Connection ~ 9800 4100
+Wire Wire Line
+	9800 4100 9800 4200
+Wire Wire Line
+	8950 4600 9800 4600
+Wire Wire Line
+	8950 4700 10200 4700
+Wire Wire Line
+	8950 5000 10600 5000
+Wire Wire Line
+	8950 5100 11000 5100
+Text Label 2650 3750 2    50   ~ 0
+I2C1_SDA
+Wire Wire Line
+	2650 3850 2000 3850
+Text Label 2650 3850 2    50   ~ 0
+PB4
+Text Label 2650 3950 2    50   ~ 0
+PB5
+Wire Wire Line
+	2650 3750 2000 3750
+Wire Wire Line
+	2000 3650 2650 3650
+Text Label 2650 3650 2    50   ~ 0
+I2C1_SCL
 $EndSCHEMATC
