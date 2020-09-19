@@ -177,7 +177,7 @@ F 3 "~" H 2550 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 5100 2550 5150
-Text Label 3750 4150 0    50   ~ 0
+Text Label 3700 4150 0    50   ~ 0
 FIX
 $Comp
 L power:GND #PWR?
@@ -198,4 +198,75 @@ Wire Wire Line
 	2550 4800 2900 4800
 Text Label 2900 4800 2    50   ~ 0
 FIX
+Text Label 3450 4050 0    50   ~ 0
+GPS_VBAT
+Text Label 2000 4800 2    50   ~ 0
+GPS_VBAT
+$Comp
+L power:GND #PWR?
+U 1 1 5FD22D81
+P 1650 5850
+AR Path="/5F6CDFD6/5FD22D81" Ref="#PWR?"  Part="1" 
+AR Path="/5F6EFD51/5FD22D81" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1650 5600 50  0001 C CNN
+F 1 "GND" H 1655 5677 50  0000 C CNN
+F 2 "" H 1650 5850 50  0001 C CNN
+F 3 "" H 1650 5850 50  0001 C CNN
+	1    1650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5FD22D8B
+P 1650 5250
+AR Path="/5F6CDFD6/5FD22D8B" Ref="D?"  Part="1" 
+AR Path="/5F6EFD51/5FD22D8B" Ref="D?"  Part="1" 
+F 0 "D?" V 1688 5132 50  0000 R CNN
+F 1 "GPS_BattCheck" V 1597 5132 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 1650 5250 50  0001 C CNN
+F 3 "~" H 1650 5250 50  0001 C CNN
+F 4 "Green" V 1650 5250 50  0001 C CNN "Color"
+F 5 "APTD2012LCGCK" V 1650 5250 50  0001 C CNN "P/N"
+F 6 "1.9V" V 1650 5250 50  0001 C CNN "Vf"
+F 7 "2mA" V 1650 5250 50  0001 C CNN "If"
+	1    1650 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 5400 1650 5350
+Wire Wire Line
+	1650 4800 1650 4900
+Wire Wire Line
+	2000 4800 1650 4800
+$Comp
+L Device:R_Small R?
+U 1 1 5FD2598F
+P 1650 5000
+F 0 "R?" H 1709 5046 50  0000 L CNN
+F 1 "550" H 1709 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1650 5000 50  0001 C CNN
+F 3 "~" H 1650 5000 50  0001 C CNN
+	1    1650 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5150 1650 5100
+Wire Wire Line
+	1650 5800 1650 5850
+Text Notes 900  6250 0    50   ~ 0
+Check levels of coin cell battery without\nhaving the led constantly consume power.
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FD394FE
+P 1650 5600
+AR Path="/5FD394FE" Ref="SW?"  Part="1" 
+AR Path="/5F6EFD51/5FD394FE" Ref="SW?"  Part="1" 
+F 0 "SW?" V 1604 5748 50  0000 L CNN
+F 1 "GPS_BattCheck" V 1695 5748 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3SL-1002P" H 1650 5800 50  0001 C CNN
+F 3 "~" H 1650 5800 50  0001 C CNN
+F 4 "EVQ-7Q203W or B3SL-1002P" V 1650 5600 50  0001 C CNN "P/N"
+	1    1650 5600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

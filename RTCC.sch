@@ -35,33 +35,31 @@ Wire Wire Line
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 5F6F3DAC
-P 5400 3250
-F 0 "BT?" V 5655 3300 50  0000 C CNN
-F 1 "CR1220" V 5564 3300 50  0000 C CNN
-F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 5400 3310 50  0001 C CNN
-F 3 "~" V 5400 3310 50  0001 C CNN
-	1    5400 3250
+P 5750 3250
+F 0 "BT?" V 6005 3300 50  0000 C CNN
+F 1 "CR1220" V 5914 3300 50  0000 C CNN
+F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 5750 3310 50  0001 C CNN
+F 3 "~" V 5750 3310 50  0001 C CNN
+	1    5750 3250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5100 3350 5100 3250
-Wire Wire Line
-	5100 3250 5200 3250
 $Comp
 L power:GND #PWR?
 U 1 1 5F6F5C5D
-P 5600 3350
-F 0 "#PWR?" H 5600 3100 50  0001 C CNN
-F 1 "GND" H 5605 3177 50  0000 C CNN
-F 2 "" H 5600 3350 50  0001 C CNN
-F 3 "" H 5600 3350 50  0001 C CNN
-	1    5600 3350
+P 5950 3350
+F 0 "#PWR?" H 5950 3100 50  0001 C CNN
+F 1 "GND" H 5955 3177 50  0000 C CNN
+F 2 "" H 5950 3350 50  0001 C CNN
+F 3 "" H 5950 3350 50  0001 C CNN
+	1    5950 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 3350 5600 3250
+	5950 3350 5950 3250
 Wire Wire Line
-	5600 3250 5500 3250
+	5950 3250 5850 3250
 $Comp
 L Device:R_Small R?
 U 1 1 5F6F70B9
@@ -73,7 +71,7 @@ F 3 "~" H 4200 2600 50  0001 C CNN
 	1    4200 2600
 	1    0    0    -1  
 $EndComp
-Text Notes 5800 3400 0    50   ~ 0
+Text Notes 6150 3400 0    50   ~ 0
 CR1220 Battery Cell must be used (+3V).\nPCF8523T has internal switch over circuitry\nwhenever VDD goes low, VBAT is automatically\nused. This is also configurable by the uC.
 $Comp
 L Device:C_Small C?
@@ -172,4 +170,81 @@ Text HLabel 6000 3750 2    50   Output ~ 0
 INT
 Wire Wire Line
 	6000 3750 5500 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5FD2F1FE
+P 6900 4900
+AR Path="/5F6CDFD6/5FD2F1FE" Ref="#PWR?"  Part="1" 
+AR Path="/5F6EFD51/5FD2F1FE" Ref="#PWR?"  Part="1" 
+AR Path="/5F6F1E63/5FD2F1FE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6900 4650 50  0001 C CNN
+F 1 "GND" H 6905 4727 50  0000 C CNN
+F 2 "" H 6900 4900 50  0001 C CNN
+F 3 "" H 6900 4900 50  0001 C CNN
+	1    6900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5FD2F208
+P 6900 4300
+AR Path="/5F6CDFD6/5FD2F208" Ref="D?"  Part="1" 
+AR Path="/5F6EFD51/5FD2F208" Ref="D?"  Part="1" 
+AR Path="/5F6F1E63/5FD2F208" Ref="D?"  Part="1" 
+F 0 "D?" V 6938 4182 50  0000 R CNN
+F 1 "RTCC_BattCheck" V 6847 4182 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6900 4300 50  0001 C CNN
+F 3 "~" H 6900 4300 50  0001 C CNN
+F 4 "Green" V 6900 4300 50  0001 C CNN "Color"
+F 5 "APTD2012LCGCK" V 6900 4300 50  0001 C CNN "P/N"
+F 6 "1.9V" V 6900 4300 50  0001 C CNN "Vf"
+F 7 "2mA" V 6900 4300 50  0001 C CNN "If"
+	1    6900 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 4450 6900 4400
+Wire Wire Line
+	6900 3850 6900 3950
+Wire Wire Line
+	7250 3850 6900 3850
+$Comp
+L Device:R_Small R?
+U 1 1 5FD2F211
+P 6900 4050
+AR Path="/5F6EFD51/5FD2F211" Ref="R?"  Part="1" 
+AR Path="/5F6F1E63/5FD2F211" Ref="R?"  Part="1" 
+F 0 "R?" H 6959 4096 50  0000 L CNN
+F 1 "550" H 6959 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6900 4050 50  0001 C CNN
+F 3 "~" H 6900 4050 50  0001 C CNN
+	1    6900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4200 6900 4150
+Wire Wire Line
+	6900 4850 6900 4900
+Text Notes 6150 5300 0    50   ~ 0
+Check levels of coin cell battery without\nhaving the led constantly consume power.
+Text Label 5100 3250 0    50   ~ 0
+RTCC_VBAT
+Wire Wire Line
+	5100 3250 5550 3250
+Text Label 7250 3850 2    50   ~ 0
+RTCC_VBAT
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5FD3AF49
+P 6900 4650
+AR Path="/5FD3AF49" Ref="SW?"  Part="1" 
+AR Path="/5F6F1E63/5FD3AF49" Ref="SW?"  Part="1" 
+F 0 "SW?" V 6854 4798 50  0000 L CNN
+F 1 "RTCC_BattCheck" V 6945 4798 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3SL-1002P" H 6900 4850 50  0001 C CNN
+F 3 "~" H 6900 4850 50  0001 C CNN
+F 4 "EVQ-7Q203W or B3SL-1002P" V 6900 4650 50  0001 C CNN "P/N"
+	1    6900 4650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

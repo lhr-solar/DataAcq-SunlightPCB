@@ -345,9 +345,10 @@ L Switch:SW_Push SW?
 U 1 1 5F7DEFF0
 P 11700 2800
 F 0 "SW?" V 11654 2948 50  0000 L CNN
-F 1 "SW_Push" V 11745 2948 50  0000 L CNN
-F 2 "" H 11700 3000 50  0001 C CNN
+F 1 "Reset" V 11745 2948 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3SL-1002P" H 11700 3000 50  0001 C CNN
 F 3 "~" H 11700 3000 50  0001 C CNN
+F 4 "EVQ-7Q203W or B3SL-1002P" V 11700 2800 50  0001 C CNN "P/N"
 	1    11700 2800
 	0    1    1    0   
 $EndComp
@@ -382,71 +383,71 @@ NRST
 $Comp
 L utsvt-misc:Logo_Placeholder LOGO?
 U 1 1 5F7EDFB8
-P 11350 6150
-F 0 "LOGO?" H 11350 6300 50  0001 C CNN
-F 1 "Dr. Hallock" H 11490 6150 50  0000 L CNN
-F 2 "UTSVT_Special:Hallock_Image" H 11350 6225 50  0001 C CNN
-F 3 "" H 11350 6225 50  0001 C CNN
-	1    11350 6150
+P 14000 2850
+F 0 "LOGO?" H 14000 3000 50  0001 C CNN
+F 1 "Dr. Hallock" H 14140 2850 50  0000 L CNN
+F 2 "UTSVT_Special:Hallock_Image" H 14000 2925 50  0001 C CNN
+F 3 "" H 14000 2925 50  0001 C CNN
+	1    14000 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L utsvt-misc:Logo_Placeholder LOGO?
 U 1 1 5F7EEA4B
-P 11350 6500
-F 0 "LOGO?" H 11350 6650 50  0001 C CNN
-F 1 "UTSVT Logo" H 11490 6500 50  0000 L CNN
-F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 11350 6575 50  0001 C CNN
-F 3 "" H 11350 6575 50  0001 C CNN
-	1    11350 6500
+P 14000 3200
+F 0 "LOGO?" H 14000 3350 50  0001 C CNN
+F 1 "UTSVT Logo" H 14140 3200 50  0000 L CNN
+F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 14000 3275 50  0001 C CNN
+F 3 "" H 14000 3275 50  0001 C CNN
+	1    14000 3200
 	1    0    0    -1  
 $EndComp
-Text Notes 11100 5950 0    50   ~ 10
+Text Notes 13750 2650 0    50   ~ 10
 Graphics/Logos
 Text Notes 10550 1150 0    50   ~ 10
 STM32 Essentials
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5F7F1B7C
-P 12700 5850
-F 0 "H?" H 12800 5896 50  0000 L CNN
-F 1 "M.3" H 12800 5805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 12700 5850 50  0001 C CNN
-F 3 "~" H 12700 5850 50  0001 C CNN
-	1    12700 5850
+P 15350 2550
+F 0 "H?" H 15450 2596 50  0000 L CNN
+F 1 "M.3" H 15450 2505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 15350 2550 50  0001 C CNN
+F 3 "~" H 15350 2550 50  0001 C CNN
+	1    15350 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5F7F32CA
-P 12700 6100
-F 0 "H?" H 12800 6146 50  0000 L CNN
-F 1 "M.3" H 12800 6055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 12700 6100 50  0001 C CNN
-F 3 "~" H 12700 6100 50  0001 C CNN
-	1    12700 6100
+P 15350 2800
+F 0 "H?" H 15450 2846 50  0000 L CNN
+F 1 "M.3" H 15450 2755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 15350 2800 50  0001 C CNN
+F 3 "~" H 15350 2800 50  0001 C CNN
+	1    15350 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5F7F3445
-P 12700 6350
-F 0 "H?" H 12800 6396 50  0000 L CNN
-F 1 "M.3" H 12800 6305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 12700 6350 50  0001 C CNN
-F 3 "~" H 12700 6350 50  0001 C CNN
-	1    12700 6350
+P 15350 3050
+F 0 "H?" H 15450 3096 50  0000 L CNN
+F 1 "M.3" H 15450 3005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 15350 3050 50  0001 C CNN
+F 3 "~" H 15350 3050 50  0001 C CNN
+	1    15350 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5F7F359F
-P 12700 6600
-F 0 "H?" H 12800 6646 50  0000 L CNN
-F 1 "M.3" H 12800 6555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 12700 6600 50  0001 C CNN
-F 3 "~" H 12700 6600 50  0001 C CNN
-	1    12700 6600
+P 15350 3300
+F 0 "H?" H 15450 3346 50  0000 L CNN
+F 1 "M.3" H 15450 3255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 15350 3300 50  0001 C CNN
+F 3 "~" H 15350 3300 50  0001 C CNN
+	1    15350 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -996,6 +997,7 @@ S 1000 8600 1000 500
 U 5F683C38
 F0 "LEDs" 50
 F1 "LEDs.sch" 50
+F2 "PE[7..15]" I R 2000 8700 50 
 $EndSheet
 Wire Wire Line
 	8950 3600 9600 3600
@@ -1014,9 +1016,9 @@ CAN1_TX
 Text Label 9600 4800 2    50   ~ 0
 CAN1_RX
 Wire Wire Line
-	2000 2050 2650 2050
+	2000 2050 2800 2050
 Wire Wire Line
-	2650 1950 2000 1950
+	2800 1950 2000 1950
 Text Label 2650 1950 2    50   ~ 0
 CAN1_TX
 Text Label 2650 2050 2    50   ~ 0
@@ -1060,11 +1062,11 @@ SPI5_MOSI
 Wire Wire Line
 	6550 6300 5900 6300
 Wire Wire Line
-	2000 6100 2650 6100
+	2000 6100 2850 6100
 Wire Wire Line
-	2650 6300 2000 6300
+	2850 6300 2000 6300
 Wire Wire Line
-	2000 6200 2650 6200
+	2000 6200 2850 6200
 Text Label 2650 6100 2    50   ~ 0
 SPI5_CLK
 Text Label 2650 6300 2    50   ~ 0
@@ -1072,7 +1074,7 @@ SPI5_MISO
 Text Label 2650 6200 2    50   ~ 0
 SPI5_MOSI
 Wire Wire Line
-	2000 6400 2650 6400
+	2000 6400 2850 6400
 Text Label 2650 6400 2    50   ~ 0
 SPI5_CS
 Wire Wire Line
@@ -1158,7 +1160,7 @@ NRST
 Text Label 2650 8150 2    50   ~ 0
 RMII_REF_CLK
 Wire Wire Line
-	2000 3950 2650 3950
+	2000 3950 2850 3950
 Wire Wire Line
 	8950 3200 9600 3200
 Wire Wire Line
@@ -1176,17 +1178,17 @@ PA8
 Text Label 9600 3400 2    50   ~ 0
 PA11
 Wire Wire Line
-	2000 4500 2650 4500
+	2000 4500 2850 4500
 Wire Wire Line
-	2000 4600 2650 4600
+	2000 4600 2850 4600
 Text Label 2650 4600 2    50   ~ 0
 USART1_RX
 Text Label 2650 4500 2    50   ~ 0
 USART1_TX
 Wire Wire Line
-	2000 4800 2650 4800
+	2000 4800 2850 4800
 Wire Wire Line
-	2000 4700 2650 4700
+	2000 4700 2850 4700
 Text Label 2650 4700 2    50   ~ 0
 PA8
 Text Label 2650 4800 2    50   ~ 0
@@ -1250,19 +1252,19 @@ I2C2_SCL
 Text Label 2650 5450 2    50   ~ 0
 I2C2_SDA
 Wire Wire Line
-	2000 5350 2650 5350
+	2000 5350 2850 5350
 Wire Wire Line
-	2000 5450 2650 5450
+	2000 5450 2850 5450
 Wire Wire Line
 	8950 5200 9600 5200
 Text Label 9600 5200 2    50   ~ 0
 PB12
 Wire Wire Line
-	2000 5550 2650 5550
+	2000 5550 2850 5550
 Text Label 2650 5550 2    50   ~ 0
 PB12
 Wire Wire Line
-	2000 6500 2650 6500
+	2000 6500 2850 6500
 Text Label 2650 6500 2    50   ~ 0
 SD_DET
 Text Label 9600 4600 2    50   ~ 0
@@ -1338,15 +1340,247 @@ Wire Wire Line
 Text Label 2650 3750 2    50   ~ 0
 I2C1_SDA
 Wire Wire Line
-	2650 3850 2000 3850
+	2850 3850 2000 3850
 Text Label 2650 3850 2    50   ~ 0
 PB4
 Text Label 2650 3950 2    50   ~ 0
 PB5
 Wire Wire Line
-	2650 3750 2000 3750
+	2850 3750 2000 3750
 Wire Wire Line
-	2000 3650 2650 3650
+	2000 3650 2850 3650
 Text Label 2650 3650 2    50   ~ 0
 I2C1_SCL
+Wire Wire Line
+	6550 5700 5900 5700
+Wire Wire Line
+	6550 5800 5900 5800
+Wire Wire Line
+	6550 5900 5900 5900
+Wire Wire Line
+	6550 6000 5900 6000
+Wire Wire Line
+	6550 6100 5900 6100
+Wire Wire Line
+	6550 6200 5900 6200
+Text Label 5900 5700 0    50   ~ 0
+PF0
+Text Label 5900 5800 0    50   ~ 0
+PF1
+Text Label 5900 5900 0    50   ~ 0
+PF2
+Text Label 5900 6000 0    50   ~ 0
+PF3
+Text Label 5900 6100 0    50   ~ 0
+PF4
+Text Label 5900 6200 0    50   ~ 0
+PF5
+Text Label 5800 5800 1    50   ~ 0
+PF[0..5]
+Entry Wire Line
+	5800 6100 5900 6200
+Entry Wire Line
+	5800 6000 5900 6100
+Entry Wire Line
+	5800 5900 5900 6000
+Entry Wire Line
+	5800 5800 5900 5900
+Entry Wire Line
+	5800 5700 5900 5800
+Entry Wire Line
+	5800 5600 5900 5700
+Wire Bus Line
+	2650 8700 2000 8700
+Wire Wire Line
+	6550 8100 5900 8100
+Wire Wire Line
+	6550 8200 5900 8200
+Wire Wire Line
+	6550 8300 5900 8300
+Wire Wire Line
+	6550 8400 5900 8400
+Wire Wire Line
+	6550 8500 5900 8500
+Wire Wire Line
+	6550 8600 5900 8600
+Text Label 5900 8100 0    50   ~ 0
+PE7
+Text Label 5900 8200 0    50   ~ 0
+PE8
+Text Label 5900 8300 0    50   ~ 0
+PE9
+Text Label 5900 8400 0    50   ~ 0
+PE10
+Text Label 5900 8500 0    50   ~ 0
+PE11
+Text Label 5900 8600 0    50   ~ 0
+PE12
+Text Label 5800 8200 1    50   ~ 0
+PE[7..15]
+Entry Wire Line
+	5800 8500 5900 8600
+Entry Wire Line
+	5800 8400 5900 8500
+Entry Wire Line
+	5800 8300 5900 8400
+Entry Wire Line
+	5800 8200 5900 8300
+Entry Wire Line
+	5800 8100 5900 8200
+Entry Wire Line
+	5800 8000 5900 8100
+Wire Wire Line
+	6550 8700 5900 8700
+Wire Wire Line
+	6550 8800 5900 8800
+Wire Wire Line
+	6550 8900 5900 8900
+Text Label 5900 8700 0    50   ~ 0
+PE13
+Text Label 5900 8800 0    50   ~ 0
+PE14
+Text Label 5900 8900 0    50   ~ 0
+PE15
+Entry Wire Line
+	5800 8600 5900 8700
+Entry Wire Line
+	5800 8700 5900 8800
+Entry Wire Line
+	5800 8800 5900 8900
+Text Label 2650 8700 2    50   ~ 0
+PE[7..15]
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5FEE9E01
+P 3050 3750
+F 0 "J?" H 3130 3792 50  0000 L CNN
+F 1 "IMU_LogicAnalyzer" H 3130 3701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3050 3750 50  0001 C CNN
+F 3 "~" H 3050 3750 50  0001 C CNN
+	1    3050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FEFE48E
+P 2750 4050
+F 0 "#PWR?" H 2750 3800 50  0001 C CNN
+F 1 "GND" H 2755 3877 50  0000 C CNN
+F 2 "" H 2750 4050 50  0001 C CNN
+F 3 "" H 2750 4050 50  0001 C CNN
+	1    2750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4050 2750 3550
+Wire Wire Line
+	2750 3550 2850 3550
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5FF13C6D
+P 3050 4600
+F 0 "J?" H 3130 4642 50  0000 L CNN
+F 1 "GPS_LogicAnalyzer" H 3130 4551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3050 4600 50  0001 C CNN
+F 3 "~" H 3050 4600 50  0001 C CNN
+	1    3050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF39D99
+P 2750 4900
+F 0 "#PWR?" H 2750 4650 50  0001 C CNN
+F 1 "GND" H 2755 4727 50  0000 C CNN
+F 2 "" H 2750 4900 50  0001 C CNN
+F 3 "" H 2750 4900 50  0001 C CNN
+	1    2750 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4900 2750 4400
+Wire Wire Line
+	2750 4400 2850 4400
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5FF613EF
+P 3050 5350
+F 0 "J?" H 3130 5342 50  0000 L CNN
+F 1 "RTCC_LogicAnalyzer" H 3130 5251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3050 5350 50  0001 C CNN
+F 3 "~" H 3050 5350 50  0001 C CNN
+	1    3050 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5250 2750 5250
+Wire Wire Line
+	2750 5250 2750 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5FF892CB
+P 2750 5650
+F 0 "#PWR?" H 2750 5400 50  0001 C CNN
+F 1 "GND" H 2755 5477 50  0000 C CNN
+F 2 "" H 2750 5650 50  0001 C CNN
+F 3 "" H 2750 5650 50  0001 C CNN
+	1    2750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5FF8ADA6
+P 3050 6200
+F 0 "J?" H 3130 6192 50  0000 L CNN
+F 1 "SDCard_LogicAnalyzer" H 3130 6101 50  0000 L CNN
+F 2 "" H 3050 6200 50  0001 C CNN
+F 3 "~" H 3050 6200 50  0001 C CNN
+	1    3050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB3D01
+P 2750 6600
+F 0 "#PWR?" H 2750 6350 50  0001 C CNN
+F 1 "GND" H 2755 6427 50  0000 C CNN
+F 2 "" H 2750 6600 50  0001 C CNN
+F 3 "" H 2750 6600 50  0001 C CNN
+	1    2750 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6000 2750 6000
+Wire Wire Line
+	2750 6000 2750 6600
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5FFDC894
+P 3000 1950
+F 0 "J?" H 3080 1992 50  0000 L CNN
+F 1 "CAN_LogicAnalyzer" H 3080 1901 50  0000 L CNN
+F 2 "" H 3000 1950 50  0001 C CNN
+F 3 "~" H 3000 1950 50  0001 C CNN
+	1    3000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFF14E8
+P 2700 2150
+F 0 "#PWR?" H 2700 1900 50  0001 C CNN
+F 1 "GND" H 2705 1977 50  0000 C CNN
+F 2 "" H 2700 2150 50  0001 C CNN
+F 3 "" H 2700 2150 50  0001 C CNN
+	1    2700 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2150 2700 1850
+Wire Wire Line
+	2700 1850 2800 1850
+Wire Bus Line
+	5800 5500 5800 6100
+Wire Bus Line
+	5800 7900 5800 8800
 $EndSCHEMATC
