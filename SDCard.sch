@@ -40,10 +40,10 @@ Wire Wire Line
 Wire Wire Line
 	4550 3600 3950 3600
 $Comp
-L Connector:Micro_SD_Card_Det J?
+L Connector:Micro_SD_Card_Det J9
 U 1 1 5F718A2C
 P 5450 3900
-F 0 "J?" H 5400 4717 50  0000 C CNN
+F 0 "J9" H 5400 4717 50  0000 C CNN
 F 1 "Micro_SD_Card_Det" H 5400 4626 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 7500 4600 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5450 4000 50  0001 C CNN
@@ -55,8 +55,8 @@ L power:GND #PWR?
 U 1 1 5F718A32
 P 5400 4750
 AR Path="/5F718A32" Ref="#PWR?"  Part="1" 
-AR Path="/5F71644D/5F718A32" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5400 4500 50  0001 C CNN
+AR Path="/5F71644D/5F718A32" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 5400 4500 50  0001 C CNN
 F 1 "GND" H 5405 4577 50  0000 C CNN
 F 2 "" H 5400 4750 50  0001 C CNN
 F 3 "" H 5400 4750 50  0001 C CNN
@@ -70,10 +70,10 @@ Connection ~ 4450 3800
 Wire Wire Line
 	4450 3800 3950 3800
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0148
 U 1 1 5F718A3D
 P 4450 3250
-F 0 "#PWR?" H 4450 3100 50  0001 C CNN
+F 0 "#PWR0148" H 4450 3100 50  0001 C CNN
 F 1 "+3.3V" H 4465 3423 50  0000 C CNN
 F 2 "" H 4450 3250 50  0001 C CNN
 F 3 "" H 4450 3250 50  0001 C CNN
