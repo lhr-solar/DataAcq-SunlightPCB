@@ -4,4 +4,5 @@
   (lib (name utsvt-chips)(type Legacy)(uri ${KIPRJMOD}/common/utsvt-chips.lib)(options "")(descr ""))
   (lib (name utsvt-misc)(type Legacy)(uri ${KIPRJMOD}/common/utsvt-misc.lib)(options "")(descr ""))
   (lib (name utsvt-microcontrollers)(type Legacy)(uri ${KIPRJMOD}/common/utsvt-microcontrollers.lib)(options "")(descr ""))
+  (lib (name Telemetry-Primary-rescue)(type Legacy)(uri ${KIPRJMOD}/Telemetry-Primary-rescue.lib)(options "")(descr ""))
 )

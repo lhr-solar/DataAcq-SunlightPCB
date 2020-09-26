@@ -85,7 +85,7 @@ Connection ~ 5500 4750
 Wire Wire Line
 	5500 4750 5500 4800
 $Comp
-L Power_Protection:SP0503BAHT D5
+L Telemetry-Primary-rescue:SP0503BAHT-Power_Protection D5
 U 1 1 5C496C9B
 P 3950 4800
 F 0 "D5" H 4155 4846 50  0000 L CNN

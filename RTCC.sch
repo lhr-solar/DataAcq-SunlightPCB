@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Timer_RTC:PCF8523T U6
+L Telemetry-Primary-rescue:PCF8523T-Timer_RTC U6
 U 1 1 5F6F240B
 P 5000 3750
 F 0 "U6" H 5450 3600 50  0000 L CNN

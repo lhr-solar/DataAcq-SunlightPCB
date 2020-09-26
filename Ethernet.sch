@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Power_Protection:USBLC6-4SC6 U5
+L Telemetry-Primary-rescue:USBLC6-4SC6-Power_Protection U5
 U 1 1 5F8F389F
 P 7100 2500
 F 0 "U5" H 7300 2850 50  0000 C CNN
@@ -836,7 +836,7 @@ F 3 "~" H 7350 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:RJ45_Abracon_ARJP11A-MASA-B-A-EMU2 J8
+L Telemetry-Primary-rescue:RJ45_Abracon_ARJP11A-MASA-B-A-EMU2-Connector J8
 U 1 1 5FA4E03B
 P 9900 3550
 F 0 "J8" H 9900 2025 50  0000 C CNN
@@ -857,7 +857,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 4350 8200 4350
 $Comp
-L power:GND2 #PWR0145
+L Telemetry-Primary-rescue:GND2-power #PWR0145
 U 1 1 5FA6BA5E
 P 10700 2550
 F 0 "#PWR0145" H 10700 2300 50  0001 C CNN
@@ -963,4 +963,12 @@ Wire Wire Line
 Connection ~ 9000 3450
 Wire Wire Line
 	9000 3450 9000 4350
+Text Label 6700 3350 0    50   ~ 0
+TX+
+Text Label 6700 3450 0    50   ~ 0
+TX-
+Text Label 6700 3550 0    50   ~ 0
+RX+
+Text Label 6700 3650 0    50   ~ 0
+RX-
 $EndSCHEMATC
