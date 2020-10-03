@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.6-c6e7f7d~87~ubuntu20.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
 
   (general
     (thickness 1.6)
-    (drawings 64)
+    (drawings 65)
     (tracks 1213)
     (zones 0)
     (modules 152)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
@@ -3405,7 +3405,7 @@
   )
 
   (module UTSVT_Special:Hallock_Image (layer B.Cu) (tedit 0) (tstamp 5F67144B)
-    (at 135.128 110.236 180)
+    (at 135.4 106 180)
     (path /5F7EDFB8)
     (fp_text reference LOGO1 (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -4939,7 +4939,7 @@
     (tags "mounting hole 3mm no annular")
     (path /5F7F359F)
     (attr virtual)
-    (fp_text reference H4 (at 0 -4) (layer F.SilkS)
+    (fp_text reference H4 (at 0 -4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M.3 (at 0 4) (layer F.Fab)
@@ -4959,7 +4959,7 @@
     (tags "mounting hole 3mm no annular")
     (path /5F7F3445)
     (attr virtual)
-    (fp_text reference H3 (at 0 -4) (layer F.SilkS)
+    (fp_text reference H3 (at 0 -4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M.3 (at 0 4) (layer F.Fab)
@@ -4979,7 +4979,7 @@
     (tags "mounting hole 3mm no annular")
     (path /5F7F32CA)
     (attr virtual)
-    (fp_text reference H2 (at -4.130918 -0.179605 180) (layer F.SilkS)
+    (fp_text reference H2 (at -4.130918 -0.179605 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M.3 (at 0 4 45) (layer F.Fab)
@@ -4999,7 +4999,7 @@
     (tags "mounting hole 3mm no annular")
     (path /5F7F1B7C)
     (attr virtual)
-    (fp_text reference H1 (at 0 -4) (layer F.SilkS)
+    (fp_text reference H1 (at 0 -4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value M.3 (at 0 4) (layer F.Fab)
@@ -7437,6 +7437,9 @@
     )
   )
 
+  (gr_text "Dr. Gary Hallcok" (at 133.8 124.2) (layer B.SilkS)
+    (effects (font (size 2 2) (thickness 0.3)) (justify mirror))
+  )
   (gr_line (start 96.774 102.362) (end 110.236 102.362) (layer F.SilkS) (width 0.12))
   (gr_line (start 121.412 112.776) (end 115.57 125.476) (layer F.SilkS) (width 0.12))
   (gr_text Array (at 127.508 99.314 90) (layer F.SilkS) (tstamp 5F70D58B)
@@ -7573,7 +7576,7 @@
   (gr_line (start 146.05 82.804) (end 163.068 76.2) (layer F.SilkS) (width 0.12))
   (gr_line (start 129.032 72.39) (end 129.032 52.07) (layer F.SilkS) (width 0.12))
   (gr_line (start 111.506 69.342) (end 111.506 51.054) (layer F.SilkS) (width 0.12))
-  (gr_text "Telemetry Leader 2020\nDesign by Sijin Woo\nand Chase Block" (at 155.702 111.252) (layer F.SilkS)
+  (gr_text "UTSVT - Telemetry\nLeader v2.0\nFall 2020\n\nDesign by Sijin Woo\nand Chase Block" (at 155.8 113.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 162.56 44.958) (end 74.168 44.958) (layer Edge.Cuts) (width 0.05) (tstamp 5F686BC7))
