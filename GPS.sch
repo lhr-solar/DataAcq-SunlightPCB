@@ -126,7 +126,7 @@ AR Path="/5F6EFD51/5F670A36" Ref="BT2"  Part="1"
 F 0 "BT2" V 3455 4100 50  0000 C CNN
 F 1 "CR1220" V 3364 4100 50  0000 C CNN
 F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 3200 4110 50  0001 C CNN
-F 3 "~" V 3200 4110 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/215/3000TR-742873.pdf" V 3200 4110 50  0001 C CNN
 	1    3200 4050
 	0    1    1    0   
 $EndComp

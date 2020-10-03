@@ -39,7 +39,7 @@ P 5750 3250
 F 0 "BT1" V 6005 3300 50  0000 C CNN
 F 1 "CR1220" V 5914 3300 50  0000 C CNN
 F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 5750 3310 50  0001 C CNN
-F 3 "~" V 5750 3310 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/215/3000TR-742873.pdf" V 5750 3310 50  0001 C CNN
 	1    5750 3250
 	0    -1   -1   0   
 $EndComp
@@ -80,7 +80,7 @@ P 4200 3000
 F 0 "C35" H 4292 3046 50  0000 L CNN
 F 1 "10u" H 4292 2955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4238 2850 50  0001 C CNN
-F 3 "~" H 4200 3000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 4200 3000 50  0001 C CNN
 	1    4200 3000
 	1    0    0    -1  
 $EndComp

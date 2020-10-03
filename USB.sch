@@ -25,9 +25,11 @@ F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J11
+L Telemetry-Primary-rescue:USB_B_Micro-Connector J11
 U 1 1 5C4964BB
 P 3000 4300
+AR Path="/5C4964BB" Ref="J11"  Part="1" 
+AR Path="/5F6D5B75/5C4964BB" Ref="J11"  Part="1" 
 F 0 "J11" H 3000 4750 50  0000 C CNN
 F 1 "USB_B_Micro" H 3000 4650 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 3150 4250 50  0001 C CNN
@@ -195,7 +197,7 @@ P 5900 2800
 F 0 "C40" H 6015 2846 50  0000 L CNN
 F 1 "4.7u" H 6015 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5938 2650 50  0001 C CNN
-F 3 "~" H 5900 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 5900 2800 50  0001 C CNN
 	1    5900 2800
 	1    0    0    -1  
 $EndComp
@@ -243,7 +245,7 @@ P 6400 2800
 F 0 "C41" H 6515 2846 50  0000 L CNN
 F 1 "0.1u" H 6515 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6438 2650 50  0001 C CNN
-F 3 "~" H 6400 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 6400 2800 50  0001 C CNN
 	1    6400 2800
 	1    0    0    -1  
 $EndComp

@@ -42,7 +42,7 @@ P 2150 3350
 F 0 "C42" H 2160 3420 50  0000 L CNN
 F 1 "10u" H 2160 3270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2150 3350 50  0001 C CNN
-F 3 "" H 2150 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 2150 3350 50  0001 C CNN
 	1    2150 3350
 	1    0    0    -1  
 $EndComp
@@ -53,7 +53,7 @@ P 2500 3350
 F 0 "C43" H 2510 3420 50  0000 L CNN
 F 1 "0.1u" H 2510 3270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2500 3350 50  0001 C CNN
-F 3 "" H 2500 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2500 3350 50  0001 C CNN
 	1    2500 3350
 	1    0    0    -1  
 $EndComp
@@ -64,7 +64,7 @@ P 2950 3350
 F 0 "C44" H 2960 3420 50  0000 L CNN
 F 1 "0.1u" H 2960 3270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2950 3350 50  0001 C CNN
-F 3 "" H 2950 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2950 3350 50  0001 C CNN
 	1    2950 3350
 	1    0    0    -1  
 $EndComp
@@ -86,7 +86,7 @@ P 6150 3200
 F 0 "C47" H 6160 3270 50  0000 L CNN
 F 1 "10u" H 6160 3120 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6150 3200 50  0001 C CNN
-F 3 "" H 6150 3200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 6150 3200 50  0001 C CNN
 	1    6150 3200
 	1    0    0    -1  
 $EndComp
@@ -130,7 +130,7 @@ P 6550 3200
 F 0 "C48" H 6560 3270 50  0000 L CNN
 F 1 "0.1u" H 6560 3120 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6550 3200 50  0001 C CNN
-F 3 "" H 6550 3200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 6550 3200 50  0001 C CNN
 	1    6550 3200
 	1    0    0    -1  
 $EndComp

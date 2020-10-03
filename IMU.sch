@@ -47,7 +47,7 @@ P 7150 4300
 F 0 "C38" V 7200 4400 50  0000 C CNN
 F 1 "0.1u" V 7200 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7188 4150 50  0001 C CNN
-F 3 "~" H 7150 4300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7150 4300 50  0001 C CNN
 	1    7150 4300
 	0    1    1    0   
 $EndComp
