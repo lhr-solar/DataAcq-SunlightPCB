@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Telemetry-Primary-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +21,7 @@ P 5650 4650
 F 0 "J10" H 5750 4625 50  0000 L CNN
 F 1 "SMAConn" H 5750 4534 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" H 5650 4650 50  0001 C CNN
-F 3 " ~" H 5650 4650 50  0001 C CNN
+F 3 " https://www.mouser.com/datasheet/2/18/C132203-714199.pdf" H 5650 4650 50  0001 C CNN
 	1    5650 4650
 	1    0    0    -1  
 $EndComp
@@ -31,7 +32,7 @@ P 4700 3650
 F 0 "U7" H 4700 3815 50  0000 C CNN
 F 1 "MTK3339" H 4700 3724 50  0000 C CNN
 F 2 "UTSVT_Special:FGPMMOPA6H" H 4700 3650 50  0001 C CNN
-F 3 "" H 4700 3650 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Adafruit/790?qs=sGAEpiMZZMu3sxpa5v1qro3UYtn2%252BmNbf7YcQf0l2Dw%3D" H 4700 3650 50  0001 C CNN
 	1    4700 3650
 	1    0    0    -1  
 $EndComp
@@ -156,7 +157,7 @@ P 2550 5250
 F 0 "D4" V 2596 5180 50  0000 R CNN
 F 1 "GPS_FIX" V 2505 5180 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" V 2550 5250 50  0001 C CNN
-F 3 "~" V 2550 5250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/APT2012LSECK-J4-PRV-535760.pdf" V 2550 5250 50  0001 C CNN
 F 4 "Orange" V 2550 5250 50  0001 C CNN "Color"
 F 5 "1.8V" V 2550 5250 50  0001 C CNN "Vf"
 F 6 "2mA" V 2550 5250 50  0001 C CNN "If"
@@ -171,7 +172,7 @@ P 2550 5000
 F 0 "R27" H 2609 5046 50  0000 L CNN
 F 1 "750" H 2609 4955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2550 5000 50  0001 C CNN
-F 3 "~" H 2550 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 2550 5000 50  0001 C CNN
 	1    2550 5000
 	1    0    0    -1  
 $EndComp
@@ -224,7 +225,7 @@ AR Path="/5F6EFD51/5FD22D8B" Ref="D3"  Part="1"
 F 0 "D3" V 1688 5132 50  0000 R CNN
 F 1 "GPS_BattCheck" V 1597 5132 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 1650 5250 50  0001 C CNN
-F 3 "~" H 1650 5250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/APTD2012LCGCK-1102037.pdf" H 1650 5250 50  0001 C CNN
 F 4 "Green" V 1650 5250 50  0001 C CNN "Color"
 F 5 "APTD2012LCGCK" V 1650 5250 50  0001 C CNN "P/N"
 F 6 "1.9V" V 1650 5250 50  0001 C CNN "Vf"
@@ -245,7 +246,7 @@ P 1650 5000
 F 0 "R26" H 1709 5046 50  0000 L CNN
 F 1 "550" H 1709 4955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 1650 5000 50  0001 C CNN
-F 3 "~" H 1650 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 1650 5000 50  0001 C CNN
 	1    1650 5000
 	1    0    0    -1  
 $EndComp
@@ -264,7 +265,7 @@ AR Path="/5F6EFD51/5FD394FE" Ref="SW3"  Part="1"
 F 0 "SW3" V 1604 5748 50  0000 L CNN
 F 1 "GPS_BattCheck" V 1695 5748 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_B3SL-1002P" H 1650 5800 50  0001 C CNN
-F 3 "~" H 1650 5800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/307/en-b3sl-1093544.pdf" H 1650 5800 50  0001 C CNN
 F 4 "EVQ-7Q203W or B3SL-1002P" V 1650 5600 50  0001 C CNN "P/N"
 	1    1650 5600
 	0    1    1    0   

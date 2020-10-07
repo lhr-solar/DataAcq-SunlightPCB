@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Telemetry-Primary-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -33,7 +34,7 @@ AR Path="/5F6D5B75/5C4964BB" Ref="J11"  Part="1"
 F 0 "J11" H 3000 4750 50  0000 C CNN
 F 1 "USB_B_Micro" H 3000 4650 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 3150 4250 50  0001 C CNN
-F 3 "~" H 3150 4250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/276/1/1050170001_IO_CONNECTORS-230168.pdf" H 3150 4250 50  0001 C CNN
 F 4 "105017-1001" H 3000 4300 50  0001 C CNN "P/N"
 	1    3000 4300
 	1    0    0    -1  
@@ -119,7 +120,7 @@ P 4700 4500
 F 0 "R32" H 4770 4546 50  0000 L CNN
 F 1 "47.5k" H 4770 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4630 4500 50  0001 C CNN
-F 3 "~" H 4700 4500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 4700 4500 50  0001 C CNN
 	1    4700 4500
 	1    0    0    -1  
 $EndComp
@@ -130,7 +131,7 @@ P 4350 4100
 F 0 "R31" V 4143 4100 50  0000 C CNN
 F 1 "22.1k" V 4234 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 4100 50  0001 C CNN
-F 3 "~" H 4350 4100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 4350 4100 50  0001 C CNN
 	1    4350 4100
 	0    1    1    0   
 $EndComp
@@ -174,7 +175,7 @@ P 4800 3000
 F 0 "R33" H 4870 3046 50  0000 L CNN
 F 1 "1k" H 4870 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4730 3000 50  0001 C CNN
-F 3 "~" H 4800 3000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 4800 3000 50  0001 C CNN
 	1    4800 3000
 	1    0    0    -1  
 $EndComp

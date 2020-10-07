@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Telemetry-Primary-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -88,7 +89,7 @@ P 2850 3050
 F 0 "R16" H 2909 3096 50  0000 L CNN
 F 1 "10k" H 2909 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2850 3050 50  0001 C CNN
-F 3 "~" H 2850 3050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 2850 3050 50  0001 C CNN
 	1    2850 3050
 	1    0    0    -1  
 $EndComp
@@ -110,7 +111,7 @@ P 2550 3050
 F 0 "R13" H 2609 3096 50  0000 L CNN
 F 1 "10k" H 2609 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2550 3050 50  0001 C CNN
-F 3 "~" H 2550 3050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 2550 3050 50  0001 C CNN
 	1    2550 3050
 	1    0    0    -1  
 $EndComp
@@ -121,7 +122,7 @@ P 2250 3050
 F 0 "R12" H 2309 3096 50  0000 L CNN
 F 1 "10k" H 2309 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2250 3050 50  0001 C CNN
-F 3 "~" H 2250 3050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 2250 3050 50  0001 C CNN
 	1    2250 3050
 	1    0    0    -1  
 $EndComp
@@ -146,7 +147,7 @@ P 2000 3750
 F 0 "R6" V 1950 3900 50  0000 C CNN
 F 1 "33" V 1950 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2000 3750 50  0001 C CNN
-F 3 "~" H 2000 3750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 2000 3750 50  0001 C CNN
 	1    2000 3750
 	0    1    1    0   
 $EndComp
@@ -157,7 +158,7 @@ P 2000 3850
 F 0 "R7" V 1950 4000 50  0000 C CNN
 F 1 "33" V 1950 3700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2000 3850 50  0001 C CNN
-F 3 "~" H 2000 3850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 2000 3850 50  0001 C CNN
 	1    2000 3850
 	0    1    1    0   
 $EndComp
@@ -168,7 +169,7 @@ P 2000 3950
 F 0 "R8" V 1950 4100 50  0000 C CNN
 F 1 "10k" V 1950 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2000 3950 50  0001 C CNN
-F 3 "~" H 2000 3950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 2000 3950 50  0001 C CNN
 	1    2000 3950
 	0    1    1    0   
 $EndComp
@@ -216,7 +217,7 @@ P 2000 4150
 F 0 "R9" V 1950 4300 50  0000 C CNN
 F 1 "33" V 1950 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2000 4150 50  0001 C CNN
-F 3 "~" H 2000 4150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 2000 4150 50  0001 C CNN
 	1    2000 4150
 	0    1    1    0   
 $EndComp
@@ -232,7 +233,7 @@ P 2650 4250
 F 0 "R14" V 2600 4400 50  0000 C CNN
 F 1 "1.5k" V 2600 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2650 4250 50  0001 C CNN
-F 3 "~" H 2650 4250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 2650 4250 50  0001 C CNN
 	1    2650 4250
 	0    1    1    0   
 $EndComp
@@ -264,7 +265,7 @@ P 2000 4450
 F 0 "R10" V 1950 4600 50  0000 C CNN
 F 1 "33" V 1950 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2000 4450 50  0001 C CNN
-F 3 "~" H 2000 4450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 2000 4450 50  0001 C CNN
 	1    2000 4450
 	0    1    1    0   
 $EndComp
@@ -282,7 +283,7 @@ P 2650 4550
 F 0 "R15" V 2600 4700 50  0000 C CNN
 F 1 "10k" V 2600 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2650 4550 50  0001 C CNN
-F 3 "~" H 2650 4550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 2650 4550 50  0001 C CNN
 	1    2650 4550
 	0    1    1    0   
 $EndComp
@@ -312,7 +313,7 @@ P 2000 4750
 F 0 "R11" V 1950 4900 50  0000 C CNN
 F 1 "33" V 1950 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2000 4750 50  0001 C CNN
-F 3 "~" H 2000 4750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 2000 4750 50  0001 C CNN
 	1    2000 4750
 	0    1    1    0   
 $EndComp
@@ -328,7 +329,7 @@ P 2450 5000
 F 0 "Y2" V 2404 5088 50  0000 L CNN
 F 1 "25M" V 2495 5088 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_HC49-SD" H 2450 5000 50  0001 C CNN
-F 3 "~" H 2450 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/160/fox_09032019_HC49SDLF_FOXSDLF-1633397.pdf" H 2450 5000 50  0001 C CNN
 	1    2450 5000
 	0    1    1    0   
 $EndComp
@@ -430,7 +431,7 @@ P 5200 3150
 F 0 "R17" H 5259 3196 50  0000 L CNN
 F 1 "50" H 5259 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5200 3150 50  0001 C CNN
-F 3 "~" H 5200 3150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 5200 3150 50  0001 C CNN
 	1    5200 3150
 	1    0    0    -1  
 $EndComp
@@ -484,7 +485,7 @@ P 5500 3150
 F 0 "R19" H 5559 3196 50  0000 L CNN
 F 1 "50" H 5559 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5500 3150 50  0001 C CNN
-F 3 "~" H 5500 3150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 5500 3150 50  0001 C CNN
 	1    5500 3150
 	1    0    0    -1  
 $EndComp
@@ -495,7 +496,7 @@ P 5800 3150
 F 0 "R20" H 5859 3196 50  0000 L CNN
 F 1 "50" H 5859 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5800 3150 50  0001 C CNN
-F 3 "~" H 5800 3150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 5800 3150 50  0001 C CNN
 	1    5800 3150
 	1    0    0    -1  
 $EndComp
@@ -506,7 +507,7 @@ P 6100 3150
 F 0 "R21" H 6159 3196 50  0000 L CNN
 F 1 "50" H 6159 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 6100 3150 50  0001 C CNN
-F 3 "~" H 6100 3150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 6100 3150 50  0001 C CNN
 	1    6100 3150
 	1    0    0    -1  
 $EndComp
@@ -566,7 +567,7 @@ P 5400 4150
 F 0 "R18" V 5350 4300 50  0000 C CNN
 F 1 "12.1k" V 5350 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5400 4150 50  0001 C CNN
-F 3 "~" H 5400 4150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 5400 4150 50  0001 C CNN
 	1    5400 4150
 	0    1    1    0   
 $EndComp
@@ -831,7 +832,7 @@ P 7350 4850
 F 0 "C32" H 7441 4896 50  0000 L CNN
 F 1 "10u" H 7441 4805 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 7350 4850 50  0001 C CNN
-F 3 "~" H 7350 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/1/KEM_T2009_T495-1092841.pdf" H 7350 4850 50  0001 C CNN
 	1    7350 4850
 	1    0    0    -1  
 $EndComp
@@ -901,7 +902,7 @@ P 9000 2450
 F 0 "R23" V 8950 2600 50  0000 C CNN
 F 1 "120" V 8950 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9000 2450 50  0001 C CNN
-F 3 "~" H 9000 2450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 9000 2450 50  0001 C CNN
 	1    9000 2450
 	0    1    1    0   
 $EndComp
@@ -912,7 +913,7 @@ P 9000 2250
 F 0 "R22" V 8950 2400 50  0000 C CNN
 F 1 "120" V 8950 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9000 2250 50  0001 C CNN
-F 3 "~" H 9000 2250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 9000 2250 50  0001 C CNN
 	1    9000 2250
 	0    1    1    0   
 $EndComp

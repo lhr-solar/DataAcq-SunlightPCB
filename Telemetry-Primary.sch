@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Telemetry-Primary-cache
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -287,7 +288,7 @@ P 12900 2750
 F 0 "J6" H 12980 2742 50  0000 L CNN
 F 1 "SWD" H 12980 2651 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12900 2750 50  0001 C CNN
-F 3 "~" H 12900 2750 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 12900 2750 50  0001 C CNN
 	1    12900 2750
 	1    0    0    -1  
 $EndComp
@@ -347,7 +348,7 @@ P 11700 2800
 F 0 "SW1" V 11654 2948 50  0000 L CNN
 F 1 "Reset" V 11745 2948 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_B3SL-1002P" H 11700 3000 50  0001 C CNN
-F 3 "~" H 11700 3000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/307/en-b3sl-1093544.pdf" H 11700 3000 50  0001 C CNN
 F 4 "EVQ-7Q203W or B3SL-1002P" V 11700 2800 50  0001 C CNN "P/N"
 	1    11700 2800
 	0    1    1    0   
@@ -1206,7 +1207,7 @@ AR Path="/5FB2F765" Ref="R3"  Part="1"
 F 0 "R3" H 10670 4796 50  0000 L CNN
 F 1 "4.7k" H 10670 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10530 4750 50  0001 C CNN
-F 3 "~" H 10600 4750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 10600 4750 50  0001 C CNN
 	1    10600 4750
 	1    0    0    -1  
 $EndComp
@@ -1219,7 +1220,7 @@ AR Path="/5FB3BF16" Ref="R4"  Part="1"
 F 0 "R4" H 11070 4796 50  0000 L CNN
 F 1 "4.7k" H 11070 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10930 4750 50  0001 C CNN
-F 3 "~" H 11000 4750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 11000 4750 50  0001 C CNN
 	1    11000 4750
 	1    0    0    -1  
 $EndComp
@@ -1288,7 +1289,7 @@ AR Path="/5FC25B5D" Ref="R1"  Part="1"
 F 0 "R1" H 9870 4396 50  0000 L CNN
 F 1 "4.7k" H 9870 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9730 4350 50  0001 C CNN
-F 3 "~" H 9800 4350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 9800 4350 50  0001 C CNN
 	1    9800 4350
 	1    0    0    -1  
 $EndComp
@@ -1301,7 +1302,7 @@ AR Path="/5FC25B63" Ref="R2"  Part="1"
 F 0 "R2" H 10270 4396 50  0000 L CNN
 F 1 "4.7k" H 10270 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 10130 4350 50  0001 C CNN
-F 3 "~" H 10200 4350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 10200 4350 50  0001 C CNN
 	1    10200 4350
 	1    0    0    -1  
 $EndComp
@@ -1456,7 +1457,7 @@ P 3050 3750
 F 0 "J2" H 3130 3792 50  0000 L CNN
 F 1 "IMU_LogicAnalyzer" H 3130 3701 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3050 3750 50  0001 C CNN
-F 3 "~" H 3050 3750 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 3050 3750 50  0001 C CNN
 	1    3050 3750
 	1    0    0    -1  
 $EndComp
@@ -1482,7 +1483,7 @@ P 3050 4600
 F 0 "J3" H 3130 4642 50  0000 L CNN
 F 1 "GPS_LogicAnalyzer" H 3130 4551 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3050 4600 50  0001 C CNN
-F 3 "~" H 3050 4600 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 3050 4600 50  0001 C CNN
 	1    3050 4600
 	1    0    0    -1  
 $EndComp
@@ -1508,7 +1509,7 @@ P 3050 5350
 F 0 "J4" H 3130 5342 50  0000 L CNN
 F 1 "RTCC_LogicAnalyzer" H 3130 5251 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3050 5350 50  0001 C CNN
-F 3 "~" H 3050 5350 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 3050 5350 50  0001 C CNN
 	1    3050 5350
 	1    0    0    -1  
 $EndComp
@@ -1534,7 +1535,7 @@ P 3050 6200
 F 0 "J5" H 3130 6192 50  0000 L CNN
 F 1 "SDCard_LogicAnalyzer" H 3130 6101 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3050 6200 50  0001 C CNN
-F 3 "~" H 3050 6200 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 3050 6200 50  0001 C CNN
 	1    3050 6200
 	1    0    0    -1  
 $EndComp
@@ -1560,7 +1561,7 @@ P 3000 1950
 F 0 "J1" H 3080 1992 50  0000 L CNN
 F 1 "CAN_LogicAnalyzer" H 3080 1901 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3000 1950 50  0001 C CNN
-F 3 "~" H 3000 1950 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 3000 1950 50  0001 C CNN
 	1    3000 1950
 	1    0    0    -1  
 $EndComp
