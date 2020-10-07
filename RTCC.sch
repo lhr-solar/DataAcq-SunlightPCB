@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Telemetry-Primary-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -67,7 +68,7 @@ P 4200 2600
 F 0 "R24" H 4259 2646 50  0000 L CNN
 F 1 "1k" H 4259 2555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 2600 50  0001 C CNN
-F 3 "~" H 4200 2600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 4200 2600 50  0001 C CNN
 	1    4200 2600
 	1    0    0    -1  
 $EndComp
@@ -128,7 +129,7 @@ P 4200 3900
 F 0 "Y3" V 4250 3650 50  0000 L CNN
 F 1 "32.768k" V 4150 3500 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_Abracon_ABS25-4Pin_8.0x3.8mm" H 4200 3900 50  0001 C CNN
-F 3 "~" H 4200 3900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/3/abs25-35653.pdf" H 4200 3900 50  0001 C CNN
 F 4 "ABS25-32.768KHZ-T" V 4200 3900 50  0001 C CNN "P/N"
 	1    4200 3900
 	0    1    -1   0   
@@ -194,7 +195,7 @@ AR Path="/5F6F1E63/5FD2F208" Ref="D2"  Part="1"
 F 0 "D2" V 6938 4182 50  0000 R CNN
 F 1 "RTCC_BattCheck" V 6847 4182 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 6900 4300 50  0001 C CNN
-F 3 "~" H 6900 4300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/APTD2012LCGCK-1102037.pdf" H 6900 4300 50  0001 C CNN
 F 4 "Green" V 6900 4300 50  0001 C CNN "Color"
 F 5 "APTD2012LCGCK" V 6900 4300 50  0001 C CNN "P/N"
 F 6 "1.9V" V 6900 4300 50  0001 C CNN "Vf"
@@ -217,7 +218,7 @@ AR Path="/5F6F1E63/5FD2F211" Ref="R25"  Part="1"
 F 0 "R25" H 6959 4096 50  0000 L CNN
 F 1 "550" H 6959 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 6900 4050 50  0001 C CNN
-F 3 "~" H 6900 4050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 6900 4050 50  0001 C CNN
 	1    6900 4050
 	1    0    0    -1  
 $EndComp
@@ -242,7 +243,7 @@ AR Path="/5F6F1E63/5FD3AF49" Ref="SW2"  Part="1"
 F 0 "SW2" V 6854 4798 50  0000 L CNN
 F 1 "RTCC_BattCheck" V 6945 4798 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_B3SL-1002P" H 6900 4850 50  0001 C CNN
-F 3 "~" H 6900 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/307/en-b3sl-1093544.pdf" H 6900 4850 50  0001 C CNN
 F 4 "EVQ-7Q203W or B3SL-1002P" V 6900 4650 50  0001 C CNN "P/N"
 	1    6900 4650
 	0    1    1    0   

@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Telemetry-Primary-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -70,7 +71,7 @@ P 5300 3000
 F 0 "R28" H 5370 3046 50  0000 L CNN
 F 1 "10k" H 5370 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5230 3000 50  0001 C CNN
-F 3 "~" H 5300 3000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 5300 3000 50  0001 C CNN
 	1    5300 3000
 	1    0    0    -1  
 $EndComp
@@ -81,7 +82,7 @@ P 4100 3900
 F 0 "C37" H 4215 3946 50  0000 L CNN
 F 1 "120n" H 4215 3855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 3750 50  0001 C CNN
-F 3 "~" H 4100 3900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4100 3900 50  0001 C CNN
 	1    4100 3900
 	1    0    0    -1  
 $EndComp
@@ -92,7 +93,7 @@ P 7450 3850
 F 0 "C39" H 7565 3896 50  0000 L CNN
 F 1 "100n" H 7565 3805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7488 3700 50  0001 C CNN
-F 3 "~" H 7450 3850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7450 3850 50  0001 C CNN
 	1    7450 3850
 	1    0    0    -1  
 $EndComp
@@ -105,7 +106,7 @@ P 5550 3000
 F 0 "R30" H 5620 3046 50  0000 L CNN
 F 1 "10k" H 5620 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5480 3000 50  0001 C CNN
-F 3 "~" H 5550 3000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 5550 3000 50  0001 C CNN
 	1    5550 3000
 	1    0    0    -1  
 $EndComp
@@ -168,7 +169,7 @@ P 5350 4300
 F 0 "R29" V 5250 4300 50  0000 C CNN
 F 1 "10k" V 5150 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5280 4300 50  0001 C CNN
-F 3 "~" H 5350 4300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 5350 4300 50  0001 C CNN
 	1    5350 4300
 	0    -1   -1   0   
 $EndComp
@@ -272,7 +273,7 @@ P 3600 4100
 F 0 "C36" H 3715 4146 50  0000 L CNN
 F 1 "6.8n" H 3715 4055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3638 3950 50  0001 C CNN
-F 3 "~" H 3600 4100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1012_X7R_OPENMODE_SMD-1103265.pdf" H 3600 4100 50  0001 C CNN
 	1    3600 4100
 	1    0    0    -1  
 $EndComp

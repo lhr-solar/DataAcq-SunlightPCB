@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Telemetry-Primary-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -34,7 +35,7 @@ P 3650 3400
 F 0 "C21" H 3768 3446 50  0000 L CNN
 F 1 "10u" H 3768 3355 50  0000 L CNN
 F 2 "UTSVT_Passive:C_2220_5750Metric" H 3688 3250 50  0001 C CNN
-F 3 "~" H 3650 3400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 3650 3400 50  0001 C CNN
 	1    3650 3400
 	1    0    0    -1  
 $EndComp
@@ -132,7 +133,7 @@ P 6350 3600
 F 0 "D1" V 6388 3482 50  0000 R CNN
 F 1 "PowerOn" V 6297 3482 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 6350 3600 50  0001 C CNN
-F 3 "~" H 6350 3600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/APTD2012LCGCK-1102037.pdf" H 6350 3600 50  0001 C CNN
 F 4 "Green" V 6350 3600 50  0001 C CNN "Color"
 F 5 "APTD2012LCGCK" V 6350 3600 50  0001 C CNN "P/N"
 F 6 "1.9V" V 6350 3600 50  0001 C CNN "Vf"
@@ -147,7 +148,7 @@ P 6350 3250
 F 0 "R5" H 6420 3296 50  0000 L CNN
 F 1 "1.5k" H 6420 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6280 3250 50  0001 C CNN
-F 3 "~" H 6350 3250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 6350 3250 50  0001 C CNN
 	1    6350 3250
 	1    0    0    -1  
 $EndComp

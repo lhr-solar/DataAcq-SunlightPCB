@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Telemetry-Primary-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -31,7 +32,7 @@ P 7900 4300
 F 0 "R35" V 7980 4300 50  0000 C CNN
 F 1 "120" V 7900 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 4300 50  0001 C CNN
-F 3 "" H 7900 4300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 7900 4300 50  0001 C CNN
 	1    7900 4300
 	-1   0    0    1   
 $EndComp
@@ -75,7 +76,7 @@ P 3300 3350
 F 0 "C45" H 3310 3420 50  0000 L CNN
 F 1 "0.01u" H 3310 3270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3300 3350 50  0001 C CNN
-F 3 "" H 3300 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_X7R_FT_VW_AUDI-1775098.pdf" H 3300 3350 50  0001 C CNN
 	1    3300 3350
 	1    0    0    -1  
 $EndComp
@@ -97,7 +98,7 @@ P 5750 3200
 F 0 "C46" H 5760 3270 50  0000 L CNN
 F 1 "0.22u" H 5760 3120 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5750 3200 50  0001 C CNN
-F 3 "" H 5750 3200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/1/KEM_C1090_X7R_ESD-1103328.pdf" H 5750 3200 50  0001 C CNN
 	1    5750 3200
 	1    0    0    -1  
 $EndComp
@@ -108,7 +109,7 @@ P 5950 3050
 F 0 "L1" V 5850 3100 50  0000 L CNN
 F 1 "2k" V 5850 2900 50  0000 L CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5880 3050 50  0001 C CNN
-F 3 "" H 5950 3050 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_signal_mmz2012_en.pdf?ref_disty=mouser" H 5950 3050 50  0001 C CNN
 	1    5950 3050
 	0    1    1    0   
 $EndComp
@@ -119,7 +120,7 @@ P 5950 3350
 F 0 "L2" V 6050 3400 50  0000 L CNN
 F 1 "2k" V 6050 3200 50  0000 L CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5880 3350 50  0001 C CNN
-F 3 "" H 5950 3350 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_signal_mmz2012_en.pdf?ref_disty=mouser" H 5950 3350 50  0001 C CNN
 	1    5950 3350
 	0    1    1    0   
 $EndComp
@@ -141,7 +142,7 @@ P 6850 3200
 F 0 "C49" H 6860 3270 50  0000 L CNN
 F 1 "0.01u" H 6860 3120 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6850 3200 50  0001 C CNN
-F 3 "" H 6850 3200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_X7R_FT_VW_AUDI-1775098.pdf" H 6850 3200 50  0001 C CNN
 	1    6850 3200
 	1    0    0    -1  
 $EndComp
@@ -193,7 +194,7 @@ P 8100 3500
 F 0 "U11" H 8100 3350 60  0000 C CNN
 F 1 "CDSOT23-T24CAN" H 8100 3650 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23W" H 8100 3500 60  0001 C CNN
-F 3 "" H 8100 3500 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/cdsot23-t24can-q-1534349.pdf" H 8100 3500 60  0001 C CNN
 	1    8100 3500
 	1    0    0    -1  
 $EndComp
@@ -494,7 +495,7 @@ P 8300 4300
 F 0 "JP1" V 8254 4348 50  0000 L CNN
 F 1 "Termination RES" V 8345 4348 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8300 4300 50  0001 C CNN
-F 3 "~" H 8300 4300 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 8300 4300 50  0001 C CNN
 	1    8300 4300
 	0    1    1    0   
 $EndComp
