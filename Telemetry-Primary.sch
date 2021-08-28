@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Telemetry-Primary-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1025,10 +1024,6 @@ CAN1_TX
 Text Label 2650 2050 2    50   ~ 0
 CAN1_RX
 Wire Wire Line
-	9000 1450 9500 1450
-Wire Wire Line
-	9500 1550 9000 1550
-Wire Wire Line
 	8950 8200 9600 8200
 Wire Wire Line
 	9600 8300 8950 8300
@@ -1044,10 +1039,6 @@ Text Label 2650 2800 2    50   ~ 0
 USART3_TX
 Text Label 2650 2900 2    50   ~ 0
 USART3_RX
-Text Label 9500 1550 2    50   ~ 0
-USART2_RX
-Text Label 9500 1450 2    50   ~ 0
-USART2_TX
 Wire Wire Line
 	6550 6400 5900 6400
 Wire Wire Line
