@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Telemetry-Primary-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -868,12 +867,8 @@ F 3 "" H 10700 2550 50  0001 C CNN
 	1    10700 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 2550 8850 2550
 Text Label 8850 2550 0    50   ~ 0
 LED1
-Wire Wire Line
-	9200 2350 8850 2350
 Text Label 8850 2350 0    50   ~ 0
 LED2
 Wire Wire Line
@@ -887,12 +882,12 @@ LED2
 $Comp
 L power:GND #PWR0146
 U 1 1 5FADEDE4
-P 8600 2450
-F 0 "#PWR0146" H 8600 2200 50  0001 C CNN
-F 1 "GND" V 8605 2322 50  0000 R CNN
-F 2 "" H 8600 2450 50  0001 C CNN
-F 3 "" H 8600 2450 50  0001 C CNN
-	1    8600 2450
+P 8250 2450
+F 0 "#PWR0146" H 8250 2200 50  0001 C CNN
+F 1 "GND" V 8255 2322 50  0000 R CNN
+F 2 "" H 8250 2450 50  0001 C CNN
+F 3 "" H 8250 2450 50  0001 C CNN
+	1    8250 2450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -918,14 +913,10 @@ F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 9000 2250 50 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8900 2450 8700 2450
+	8350 2450 8350 2350
 Wire Wire Line
-	8700 2450 8700 2250
-Wire Wire Line
-	8700 2250 8900 2250
-Wire Wire Line
-	8700 2450 8600 2450
-Connection ~ 8700 2450
+	8350 2450 8250 2450
+Connection ~ 8350 2450
 Wire Wire Line
 	8700 2750 9200 2750
 Wire Wire Line
@@ -972,4 +963,28 @@ Text Label 6700 3550 0    50   ~ 0
 RX+
 Text Label 6700 3650 0    50   ~ 0
 RX-
+$Comp
+L Device:R_Small R43
+U 1 1 615D3617
+P 8600 2350
+F 0 "R43" V 8550 2500 50  0000 C CNN
+F 1 "R" V 8550 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8530 2350 50  0001 C CNN
+F 3 "~" H 8600 2350 50  0001 C CNN
+	1    8600 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 2250 8900 2250
+Wire Wire Line
+	8350 2450 8900 2450
+Wire Wire Line
+	8700 2350 9200 2350
+Wire Wire Line
+	9200 2550 8850 2550
+Wire Wire Line
+	8500 2350 8350 2350
+Connection ~ 8350 2350
+Wire Wire Line
+	8350 2350 8350 2250
 $EndSCHEMATC

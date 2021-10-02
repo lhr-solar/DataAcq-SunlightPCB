@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Telemetry-Primary-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -454,4 +453,21 @@ Wire Wire Line
 	3950 3600 3950 3700
 Wire Wire Line
 	3950 3500 3950 3600
+$Comp
+L Simulation_SPICE:DIODE D13
+U 1 1 6163B945
+P 3250 3400
+F 0 "D13" V 3296 3320 50  0000 R CNN
+F 1 "TVS" V 3205 3320 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 3250 3400 50  0001 C CNN
+F 3 "~" H 3250 3400 50  0001 C CNN
+F 4 "Y" H 3250 3400 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "D" H 3250 3400 50  0001 L CNN "Spice_Primitive"
+	1    3250 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 3250 3250 3200
+Wire Wire Line
+	3250 3550 3250 3600
 $EndSCHEMATC
