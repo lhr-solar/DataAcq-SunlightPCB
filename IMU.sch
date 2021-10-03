@@ -246,14 +246,7 @@ Wire Wire Line
 	7450 4300 7450 4550
 Connection ~ 6400 4550
 Wire Wire Line
-	6200 4550 4850 4550
-Wire Wire Line
-	4850 4300 4850 4550
-Wire Wire Line
-	4850 4550 4100 4550
-Wire Wire Line
 	4100 4200 4100 4550
-Connection ~ 4850 4550
 Wire Wire Line
 	6300 3050 6400 3050
 Wire Wire Line
@@ -264,7 +257,7 @@ Wire Wire Line
 	6200 3050 6200 3100
 Connection ~ 6300 3050
 Text Notes 5100 4700 0    50   ~ 0
-I2C Addr: 0x28
+I2C Addr: 0x29
 $Comp
 L Device:C C36
 U 1 1 5F6FCE6A
@@ -290,4 +283,17 @@ Wire Wire Line
 Connection ~ 4100 4550
 Text Notes 4550 3850 0    50   ~ 0
 Pull-up resistors in root
+Wire Wire Line
+	4100 4550 6200 4550
+$Comp
+L power:+3.3V #PWR0177
+U 1 1 6161D71A
+P 4850 4300
+F 0 "#PWR0177" H 4850 4150 50  0001 C CNN
+F 1 "+3.3V" V 4865 4428 50  0000 L CNN
+F 2 "" H 4850 4300 50  0001 C CNN
+F 3 "" H 4850 4300 50  0001 C CNN
+	1    4850 4300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -924,8 +924,6 @@ Wire Wire Line
 Wire Wire Line
 	9200 3250 8900 3250
 Wire Wire Line
-	6600 3350 8200 3350
-Wire Wire Line
 	8700 3350 8700 2750
 Connection ~ 6600 3350
 Wire Wire Line
@@ -987,22 +985,6 @@ Wire Wire Line
 Connection ~ 8350 2350
 Wire Wire Line
 	8350 2350 8350 2250
-$Comp
-L Device:R R44
-U 1 1 615AE01D
-P 8200 4000
-F 0 "R44" H 8270 4046 50  0000 L CNN
-F 1 "R" H 8270 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8130 4000 50  0001 C CNN
-F 3 "~" H 8200 4000 50  0001 C CNN
-	1    8200 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8200 3350 8200 3850
-Connection ~ 8200 3350
-Wire Wire Line
-	8200 3350 8700 3350
-Wire Wire Line
-	8200 4150 8200 4350
+	6600 3350 8700 3350
 $EndSCHEMATC
