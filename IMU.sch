@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Telemetry-Primary-rescue:BNO055-Sensor_Motion U?
+L Telemetry-Primary-rescue:BNO055-Sensor_Motion-Telemetry-Primary-rescue U?
 U 1 1 5EF56CFF
 P 6300 3800
 AR Path="/5EF56CFF" Ref="U?"  Part="1" 

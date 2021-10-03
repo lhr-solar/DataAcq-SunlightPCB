@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Telemetry-Primary-rescue:USBLC6-4SC6-Power_Protection U5
+L Telemetry-Primary-rescue:USBLC6-4SC6-Power_Protection-Telemetry-Primary-rescue U5
 U 1 1 5F8F389F
 P 7100 2500
 F 0 "U5" H 7300 2850 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "https://www.st.com/resource/en/datasheet/usblc6-4.pdf" H 7300 2850 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-chips:LAN8742A-CZ-TR U4
+L Telemetry-Primary-rescue:LAN8742A-CZ-TR-utsvt-chips U4
 U 1 1 5F8F7D15
 P 3800 3250
 F 0 "U4" H 3150 3400 50  0000 L CNN
@@ -836,7 +836,7 @@ F 3 "https://www.mouser.com/datasheet/2/212/1/KEM_T2009_T495-1092841.pdf" H 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Telemetry-Primary-rescue:RJ45_Abracon_ARJP11A-MASA-B-A-EMU2-Connector J8
+L Telemetry-Primary-rescue:RJ45_Abracon_ARJP11A-MASA-B-A-EMU2-Connector-Telemetry-Primary-rescue J8
 U 1 1 5FA4E03B
 P 9900 3550
 F 0 "J8" H 9900 2025 50  0000 C CNN
@@ -857,7 +857,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 4350 8200 4350
 $Comp
-L Telemetry-Primary-rescue:GND2-power #PWR0145
+L Telemetry-Primary-rescue:GND2-power-Telemetry-Primary-rescue #PWR0145
 U 1 1 5FA6BA5E
 P 10700 2550
 F 0 "#PWR0145" H 10700 2300 50  0001 C CNN
@@ -924,7 +924,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 3250 8900 3250
 Wire Wire Line
-	6600 3350 8700 3350
+	6600 3350 8200 3350
 Wire Wire Line
 	8700 3350 8700 2750
 Connection ~ 6600 3350
@@ -987,4 +987,22 @@ Wire Wire Line
 Connection ~ 8350 2350
 Wire Wire Line
 	8350 2350 8350 2250
+$Comp
+L Device:R R44
+U 1 1 615AE01D
+P 8200 4000
+F 0 "R44" H 8270 4046 50  0000 L CNN
+F 1 "R" H 8270 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8130 4000 50  0001 C CNN
+F 3 "~" H 8200 4000 50  0001 C CNN
+	1    8200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3350 8200 3850
+Connection ~ 8200 3350
+Wire Wire Line
+	8200 3350 8700 3350
+Wire Wire Line
+	8200 4150 8200 4350
 $EndSCHEMATC

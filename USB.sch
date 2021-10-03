@@ -25,7 +25,7 @@ F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Telemetry-Primary-rescue:USB_B_Micro-Connector J11
+L Telemetry-Primary-rescue:USB_B_Micro-Connector-Telemetry-Primary-rescue J11
 U 1 1 5C4964BB
 P 3000 4300
 AR Path="/5C4964BB" Ref="J11"  Part="1" 
@@ -87,7 +87,7 @@ Connection ~ 5500 4750
 Wire Wire Line
 	5500 4750 5500 4800
 $Comp
-L Telemetry-Primary-rescue:SP0503BAHT-Power_Protection D5
+L Telemetry-Primary-rescue:SP0503BAHT-Power_Protection-Telemetry-Primary-rescue D5
 U 1 1 5C496C9B
 P 3950 4800
 F 0 "D5" H 4155 4846 50  0000 L CNN

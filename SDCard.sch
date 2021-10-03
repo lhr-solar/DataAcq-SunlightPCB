@@ -40,7 +40,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 3600 3950 3600
 $Comp
-L Telemetry-Primary-rescue:Micro_SD_Card_Det-Connector J9
+L Telemetry-Primary-rescue:Micro_SD_Card_Det-Connector-Telemetry-Primary-rescue J9
 U 1 1 5F718A2C
 P 5450 3900
 F 0 "J9" H 5400 4717 50  0000 C CNN

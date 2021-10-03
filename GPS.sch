@@ -25,7 +25,7 @@ F 3 " https://www.mouser.com/datasheet/2/18/C132203-714199.pdf" H 5650 4650 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-chips:MTK3339 U7
+L Telemetry-Primary-rescue:MTK3339-utsvt-chips U7
 U 1 1 5FB7A882
 P 4700 3650
 F 0 "U7" H 4700 3815 50  0000 C CNN

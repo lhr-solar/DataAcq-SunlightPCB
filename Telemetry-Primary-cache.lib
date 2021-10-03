@@ -282,9 +282,6 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  SolderJumper*Open*
- Jumper*
- TestPoint*2Pads*
- TestPoint*Bridge*
 $ENDFPLIST
 DRAW
 C -40 0 20 0 1 0 N
@@ -307,9 +304,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 8 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 10 50 -50 50 50 -50 0 50 -50 F
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -330,9 +327,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 10 -30 -40 -30 40 N
+P 2 0 1 0 -30 -40 -30 40 N
 P 2 0 1 0 40 0 -30 0 N
-P 4 0 1 10 30 -40 -30 0 30 40 30 -40 F
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
 P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
 P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
 X K 1 -100 0 70 R 50 50 1 1 P
@@ -615,7 +612,7 @@ F1 "Simulation_SPICE_DIODE" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
-F5 "D" 0 0 50 H I L CNN "Spice_Primitive"
+F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
 DRAW
 P 2 0 1 0 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
@@ -642,11 +639,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Telemetry-Primary-rescue_BNO055-Sensor_Motion
+# Telemetry-Primary-rescue_BNO055-Sensor_Motion-Telemetry-Primary-rescue
 #
-DEF Telemetry-Primary-rescue_BNO055-Sensor_Motion U 0 20 Y Y 1 F N
+DEF Telemetry-Primary-rescue_BNO055-Sensor_Motion-Telemetry-Primary-rescue U 0 20 Y Y 1 F N
 F0 "U" -450 650 50 H V R CNN
-F1 "Telemetry-Primary-rescue_BNO055-Sensor_Motion" 500 650 50 H V R CNN
+F1 "Telemetry-Primary-rescue_BNO055-Sensor_Motion-Telemetry-Primary-rescue" 500 650 50 H V R CNN
 F2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" 250 -650 50 H I L CNN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
@@ -685,11 +682,11 @@ X CAP 9 600 -500 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Telemetry-Primary-rescue_GND2-power
+# Telemetry-Primary-rescue_GND2-power-Telemetry-Primary-rescue
 #
-DEF Telemetry-Primary-rescue_GND2-power #PWR 0 0 Y Y 1 F P
+DEF Telemetry-Primary-rescue_GND2-power-Telemetry-Primary-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Telemetry-Primary-rescue_GND2-power" 0 -150 50 H V C CNN
+F1 "Telemetry-Primary-rescue_GND2-power-Telemetry-Primary-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -698,11 +695,80 @@ X GND2 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Telemetry-Primary-rescue_Micro_SD_Card_Det-Connector
+# Telemetry-Primary-rescue_LAN8742A-CZ-TR-utsvt-chips
 #
-DEF Telemetry-Primary-rescue_Micro_SD_Card_Det-Connector J 0 40 Y Y 1 F N
+DEF Telemetry-Primary-rescue_LAN8742A-CZ-TR-utsvt-chips U 0 40 Y Y 1 F N
+F0 "U" -600 150 50 H V C CNN
+F1 "Telemetry-Primary-rescue_LAN8742A-CZ-TR-utsvt-chips" -300 50 50 H V C CNN
+F2 "UTSVT_ICs:LAN8742AI-CZ-TR" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -700 0 1150 -1900 0 1 0 f
+X VDD2A 1 1300 -1200 150 L 50 50 1 1 W
+X RXER/PHYAD0 10 -850 -700 150 R 50 50 1 1 O
+X CRS_DV/MODE2 11 -850 -900 150 R 50 50 1 1 O
+X MDIO 12 -850 -1200 150 R 50 50 1 1 O
+X MDC 13 -850 -1100 150 R 50 50 1 1 I
+X nINT/REFCLK0 14 -850 -1500 150 R 50 50 1 1 O
+X nRST 15 -850 -1400 150 R 50 50 1 1 B
+X TXEN 16 -850 -100 150 R 50 50 1 1 I
+X TXD0 17 -850 -200 150 R 50 50 1 1 I
+X TXD1 18 -850 -300 150 R 50 50 1 1 I
+X VDD1A 19 1300 -1100 150 L 50 50 1 1 W
+X LED2/nINT/nPME/nINTSEL 2 1300 -700 150 L 50 50 1 1 B
+X TXN 20 1300 -200 150 L 50 50 1 1 O
+X TXP 21 1300 -100 150 L 50 50 1 1 O
+X RXN 22 1300 -400 150 L 50 50 1 1 I
+X RXP 23 1300 -300 150 L 50 50 1 1 I
+X RBIAS 24 1300 -900 150 L 50 50 1 1 P
+X GND_EP 25 1300 -1800 150 L 50 50 1 1 W
+X LED1/nINT/nPME/REGOFF 3 1300 -600 150 L 50 50 1 1 B
+X XTAL2 4 -850 -1700 150 R 50 50 1 1 P
+X XTAL1/CLKIN 5 -850 -1800 150 R 50 50 1 1 P
+X VDDCR 6 1300 -1400 150 L 50 50 1 1 W
+X RXD1/MODE1 7 -850 -600 150 R 50 50 1 1 O
+X RXD0/MODE0 8 -850 -500 150 R 50 50 1 1 O
+X VDDIO 9 1300 -1300 150 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Telemetry-Primary-rescue_MTK3339-utsvt-chips
+#
+DEF Telemetry-Primary-rescue_MTK3339-utsvt-chips U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Telemetry-Primary-rescue_MTK3339-utsvt-chips" 0 50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 0 400 -1100 0 1 0 f
+X VCC 1 -550 -100 150 R 50 50 1 1 W
+X RX 10 -550 -1000 150 R 50 50 1 1 I
+X EX_ANT 11 550 -1000 150 L 50 50 1 1 I
+X GND 12 550 -900 150 L 50 50 1 1 W
+X 1PPS 13 550 -800 150 L 50 50 1 1 O
+X RTCM 14 550 -700 150 L 50 50 1 1 I
+X NC 15 550 -600 150 L 50 50 1 1 N
+X NC 16 550 -500 150 L 50 50 1 1 N
+X NC 17 550 -400 150 L 50 50 1 1 N
+X NC 18 550 -300 150 L 50 50 1 1 N
+X GND 19 550 -200 150 L 50 50 1 1 W
+X NRST 2 -550 -200 150 R 50 50 1 1 I
+X NC 20 550 -100 150 L 50 50 1 1 N
+X GND 3 -550 -300 150 R 50 50 1 1 W
+X VBACKUP 4 -550 -400 150 R 50 50 1 1 W
+X 3D-FIX 5 -550 -500 150 R 50 50 1 1 O
+X NC 6 -550 -600 150 R 50 50 1 1 N
+X NC 7 -550 -700 150 R 50 50 1 1 N
+X GND 8 -550 -800 150 R 50 50 1 1 W
+X TX 9 -550 -900 150 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Telemetry-Primary-rescue_Micro_SD_Card_Det-Connector-Telemetry-Primary-rescue
+#
+DEF Telemetry-Primary-rescue_Micro_SD_Card_Det-Connector-Telemetry-Primary-rescue J 0 40 Y Y 1 F N
 F0 "J" -650 700 50 H V C CNN
-F1 "Telemetry-Primary-rescue_Micro_SD_Card_Det-Connector" 650 700 50 H V R CNN
+F1 "Telemetry-Primary-rescue_Micro_SD_Card_Det-Connector-Telemetry-Primary-rescue" 650 700 50 H V R CNN
 F2 "" 2050 700 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -733,11 +799,11 @@ X DET_B 9 -900 -500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Telemetry-Primary-rescue_PCF8523T-Timer_RTC
+# Telemetry-Primary-rescue_PCF8523T-Timer_RTC-Telemetry-Primary-rescue
 #
-DEF Telemetry-Primary-rescue_PCF8523T-Timer_RTC U 0 20 Y Y 1 F N
+DEF Telemetry-Primary-rescue_PCF8523T-Timer_RTC-Telemetry-Primary-rescue U 0 20 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
-F1 "Telemetry-Primary-rescue_PCF8523T-Timer_RTC" 150 350 50 H V L CNN
+F1 "Telemetry-Primary-rescue_PCF8523T-Timer_RTC-Telemetry-Primary-rescue" 150 350 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 800 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -756,11 +822,11 @@ X VDD 8 -100 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Telemetry-Primary-rescue_RJ45_Abracon_ARJP11A-MASA-B-A-EMU2-Connector
+# Telemetry-Primary-rescue_RJ45_Abracon_ARJP11A-MASA-B-A-EMU2-Connector-Telemetry-Primary-rescue
 #
-DEF Telemetry-Primary-rescue_RJ45_Abracon_ARJP11A-MASA-B-A-EMU2-Connector J 0 40 Y N 1 F N
+DEF Telemetry-Primary-rescue_RJ45_Abracon_ARJP11A-MASA-B-A-EMU2-Connector-Telemetry-Primary-rescue J 0 40 Y N 1 F N
 F0 "J" 0 -1500 50 H V C CNN
-F1 "Telemetry-Primary-rescue_RJ45_Abracon_ARJP11A-MASA-B-A-EMU2-Connector" 0 -1400 50 H V C CNN
+F1 "Telemetry-Primary-rescue_RJ45_Abracon_ARJP11A-MASA-B-A-EMU2-Connector-Telemetry-Primary-rescue" 0 -1400 50 H V C CNN
 F2 "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal" 0 1400 50 H I C CNN
 F3 "" -150 -850 50 H I C CNN
 $FPLIST
@@ -972,11 +1038,11 @@ X V+ 9 -700 700 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Telemetry-Primary-rescue_SP0503BAHT-Power_Protection
+# Telemetry-Primary-rescue_SP0503BAHT-Power_Protection-Telemetry-Primary-rescue
 #
-DEF Telemetry-Primary-rescue_SP0503BAHT-Power_Protection D 0 20 Y N 1 F N
+DEF Telemetry-Primary-rescue_SP0503BAHT-Power_Protection-Telemetry-Primary-rescue D 0 20 Y N 1 F N
 F0 "D" 225 100 50 H V L CNN
-F1 "Telemetry-Primary-rescue_SP0503BAHT-Power_Protection" 225 25 50 H V L CNN
+F1 "Telemetry-Primary-rescue_SP0503BAHT-Power_Protection-Telemetry-Primary-rescue" 225 25 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-143" 225 -50 50 H I L CNN
 F3 "" 125 125 50 H I C CNN
 $FPLIST
@@ -1005,11 +1071,11 @@ X K 4 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Telemetry-Primary-rescue_USBLC6-4SC6-Power_Protection
+# Telemetry-Primary-rescue_USBLC6-4SC6-Power_Protection-Telemetry-Primary-rescue
 #
-DEF Telemetry-Primary-rescue_USBLC6-4SC6-Power_Protection U 0 20 Y N 1 F N
+DEF Telemetry-Primary-rescue_USBLC6-4SC6-Power_Protection-Telemetry-Primary-rescue U 0 20 Y N 1 F N
 F0 "U" 100 350 50 H V L CNN
-F1 "Telemetry-Primary-rescue_USBLC6-4SC6-Power_Protection" 100 -350 50 H V L CNN
+F1 "Telemetry-Primary-rescue_USBLC6-4SC6-Power_Protection-Telemetry-Primary-rescue" 100 -350 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 0 -500 50 H I C CNN
 F3 "" 200 350 50 H I C CNN
 $FPLIST
@@ -1065,11 +1131,11 @@ X I/O4 6 400 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Telemetry-Primary-rescue_USB_B_Micro-Connector
+# Telemetry-Primary-rescue_USB_B_Micro-Connector-Telemetry-Primary-rescue
 #
-DEF Telemetry-Primary-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
+DEF Telemetry-Primary-rescue_USB_B_Micro-Connector-Telemetry-Primary-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "Telemetry-Primary-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
+F1 "Telemetry-Primary-rescue_USB_B_Micro-Connector-Telemetry-Primary-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -1251,75 +1317,6 @@ S 250 100 -250 -100 0 1 0 f
 X CAN_H 1 -350 50 100 R 50 50 1 1 P
 X CAN_L 2 -350 -50 100 R 50 50 1 1 P
 X GND 3 350 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# utsvt-chips_LAN8742A-CZ-TR
-#
-DEF utsvt-chips_LAN8742A-CZ-TR U 0 40 Y Y 1 F N
-F0 "U" -600 150 50 H V C CNN
-F1 "utsvt-chips_LAN8742A-CZ-TR" -300 50 50 H V C CNN
-F2 "UTSVT_ICs:LAN8742AI-CZ-TR" 0 50 50 H I C CNN
-F3 "" 0 50 50 H I C CNN
-DRAW
-S -700 0 1150 -1900 0 1 0 f
-X VDD2A 1 1300 -1200 150 L 50 50 1 1 W
-X RXER/PHYAD0 10 -850 -700 150 R 50 50 1 1 O
-X CRS_DV/MODE2 11 -850 -900 150 R 50 50 1 1 O
-X MDIO 12 -850 -1200 150 R 50 50 1 1 O
-X MDC 13 -850 -1100 150 R 50 50 1 1 I
-X nINT/REFCLK0 14 -850 -1500 150 R 50 50 1 1 O
-X nRST 15 -850 -1400 150 R 50 50 1 1 B
-X TXEN 16 -850 -100 150 R 50 50 1 1 I
-X TXD0 17 -850 -200 150 R 50 50 1 1 I
-X TXD1 18 -850 -300 150 R 50 50 1 1 I
-X VDD1A 19 1300 -1100 150 L 50 50 1 1 W
-X LED2/nINT/nPME/nINTSEL 2 1300 -700 150 L 50 50 1 1 B
-X TXN 20 1300 -200 150 L 50 50 1 1 O
-X TXP 21 1300 -100 150 L 50 50 1 1 O
-X RXN 22 1300 -400 150 L 50 50 1 1 I
-X RXP 23 1300 -300 150 L 50 50 1 1 I
-X RBIAS 24 1300 -900 150 L 50 50 1 1 P
-X GND_EP 25 1300 -1800 150 L 50 50 1 1 W
-X LED1/nINT/nPME/REGOFF 3 1300 -600 150 L 50 50 1 1 B
-X XTAL2 4 -850 -1700 150 R 50 50 1 1 P
-X XTAL1/CLKIN 5 -850 -1800 150 R 50 50 1 1 P
-X VDDCR 6 1300 -1400 150 L 50 50 1 1 W
-X RXD1/MODE1 7 -850 -600 150 R 50 50 1 1 O
-X RXD0/MODE0 8 -850 -500 150 R 50 50 1 1 O
-X VDDIO 9 1300 -1300 150 L 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# utsvt-chips_MTK3339
-#
-DEF utsvt-chips_MTK3339 U 0 40 Y Y 1 F N
-F0 "U" 0 150 50 H V C CNN
-F1 "utsvt-chips_MTK3339" 0 50 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -400 0 400 -1100 0 1 0 f
-X VCC 1 -550 -100 150 R 50 50 1 1 W
-X RX 10 -550 -1000 150 R 50 50 1 1 I
-X EX_ANT 11 550 -1000 150 L 50 50 1 1 I
-X GND 12 550 -900 150 L 50 50 1 1 W
-X 1PPS 13 550 -800 150 L 50 50 1 1 O
-X RTCM 14 550 -700 150 L 50 50 1 1 I
-X NC 15 550 -600 150 L 50 50 1 1 N
-X NC 16 550 -500 150 L 50 50 1 1 N
-X NC 17 550 -400 150 L 50 50 1 1 N
-X NC 18 550 -300 150 L 50 50 1 1 N
-X GND 19 550 -200 150 L 50 50 1 1 W
-X NRST 2 -550 -200 150 R 50 50 1 1 I
-X NC 20 550 -100 150 L 50 50 1 1 N
-X GND 3 -550 -300 150 R 50 50 1 1 W
-X VBACKUP 4 -550 -400 150 R 50 50 1 1 W
-X 3D-FIX 5 -550 -500 150 R 50 50 1 1 O
-X NC 6 -550 -600 150 R 50 50 1 1 N
-X NC 7 -550 -700 150 R 50 50 1 1 N
-X GND 8 -550 -800 150 R 50 50 1 1 W
-X TX 9 -550 -900 150 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
