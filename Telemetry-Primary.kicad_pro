@@ -403,7 +403,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -931,10 +931,6 @@
     [
       "00000000-0000-0000-0000-00005f6efd51",
       "GPS"
-    ],
-    [
-      "00000000-0000-0000-0000-00005f6f1e63",
-      "RTCC"
     ],
     [
       "00000000-0000-0000-0000-00005f71644d",

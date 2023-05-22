@@ -518,6 +518,7 @@
     )
   )
 
+
   (junction (at 151.765 93.345) (diameter 0) (color 0 0 0 0)
     (uuid 1e51ca5f-1295-41b7-a6f5-d274393758d8)
   )
@@ -718,9 +719,6 @@
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6efd51"
           (reference "BT2") (unit 1)
-        )
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6f1e63"
-          (reference "BT?") (unit 1)
         )
       )
     )
