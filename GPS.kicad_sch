@@ -518,7 +518,6 @@
     )
   )
 
-
   (junction (at 151.765 93.345) (diameter 0) (color 0 0 0 0)
     (uuid 1e51ca5f-1295-41b7-a6f5-d274393758d8)
   )
@@ -1087,7 +1086,7 @@
     (property "Value" "GPS_BattCheck" (at 94.5642 123.698 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P" (at 95.885 122.555 0)
+    (property "Footprint" "UTSVT_Special:SW_SPST_B3SL-1002P" (at 95.885 122.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.885 122.555 0)

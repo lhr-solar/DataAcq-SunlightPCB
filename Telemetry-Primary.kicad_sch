@@ -2108,7 +2108,6 @@
     )
   )
 
-
   (junction (at 323.215 29.845) (diameter 0) (color 0 0 0 0)
     (uuid 015ec22c-92ef-4677-8739-66bf40e7667a)
   )
@@ -3391,7 +3390,7 @@
     (uuid ffe38b1f-b633-46b1-b2cb-f7f173e1466e)
   )
 
-  (text "Version History\n-v2.1, Remove the external RTC.\nThere's no need to use an external RTC on the telemetry board. The\nmicrocontroller itself has an internal RTC that can be powered from\nthe VBAT line and a 32.768kHz oscillator. Courtesy of Chase!"
+  (text "Version History\n-v2.1, Remove the external RTC.\nThere's no need to use an external RTC on the telemetry board. The\nmicrocontroller itself has an internal RTC that can be powered from\nthe VBAT line and a 32.768kHz oscillator. Courtesy of Chase!\n-v2.2, Standardization and cleanup!!"
     (at 300.99 196.85 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 0baeba64-513c-4923-827c-15453c821d0b)
@@ -4262,7 +4261,7 @@
     (property "Value" "Reset" (at 315.5442 64.643 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P" (at 316.865 63.5 0)
+    (property "Footprint" "UTSVT_Special:SW_SPST_B3SL-1002P" (at 316.865 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 316.865 63.5 0)
@@ -5054,7 +5053,7 @@
     (property "Value" "8M" (at 158.4452 76.073 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_TXC_7A-2Pin_5x3.2mm" (at 156.21 74.93 0)
+    (property "Footprint" "UTSVT_Special:Crystal_SMD_TXC_7A-2Pin_5x3.2mm" (at 156.21 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.21 74.93 0)
@@ -5290,7 +5289,7 @@
     (property "Value" "RTCC_BattCheck" (at 312.3692 112.903 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P" (at 313.69 111.76 0)
+    (property "Footprint" "UTSVT_Special:SW_SPST_B3SL-1002P" (at 313.69 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/307/en-b3sl-1093544.pdf" (at 313.69 111.76 0)
@@ -5379,7 +5378,7 @@
     (property "Value" "32.768k" (at 238.4552 180.213 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm" (at 236.22 179.07 0)
+    (property "Footprint" "UTSVT_Special:Crystal_SMD_2012-2Pin_2.0x1.2mm" (at 236.22 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/417/9ht11-5889.pdf" (at 236.22 179.07 0)

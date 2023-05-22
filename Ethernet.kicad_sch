@@ -2015,7 +2015,6 @@
     )
   )
 
-
   (junction (at 165.1 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 05cbc16a-3f6b-4392-8af3-317364232e20)
   )
@@ -4069,7 +4068,7 @@
     (property "Value" "RJ45_Abracon_ARJP11A-MASA-B-A-EMU2" (at 251.46 53.7464 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal" (at 251.46 125.73 0)
+    (property "Footprint" "UTSVT_Connectors:RJ45_Abracon_ARJP11A-MA_Horizontal" (at 251.46 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://abracon.com/Magnetics/lan/ARJP11A.PDF" (at 247.65 68.58 0)
