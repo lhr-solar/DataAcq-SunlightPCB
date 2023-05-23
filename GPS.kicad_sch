@@ -846,7 +846,7 @@
     (property "Value" "SMAConn" (at 194.945 101.3714 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" (at 192.405 98.425 0)
+    (property "Footprint" "UTSVT_Connectors:SMA_Amphenol_132203-12_Horizontal" (at 192.405 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 192.405 98.425 0)
