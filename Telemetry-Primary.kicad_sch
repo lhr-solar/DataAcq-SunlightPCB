@@ -3391,7 +3391,7 @@
   )
 
   (text "Version History\n-v2.1, Remove the external RTC.\nThere's no need to use an external RTC on the telemetry board. The\nmicrocontroller itself has an internal RTC that can be powered from\nthe VBAT line and a 32.768kHz oscillator. Courtesy of Chase!\n-v2.2, Standardization and cleanup!!"
-    (at 300.99 196.85 0)
+    (at 300.355 251.46 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 0baeba64-513c-4923-827c-15453c821d0b)
   )
