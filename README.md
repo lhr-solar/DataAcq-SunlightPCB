@@ -18,7 +18,7 @@ The software on this board is responsible for data collection on the solar vehic
 | J8  | Ethernet | | | | | | | Radio connection |
 | J9  | Micro SD | | | | | | | Local logging |
 | J10 | SMA | | | | | | | GPS antenna |
-| J11 | Micro USB | | | | | | | Serial debugging at 115,000 bauds |
+| J11 | Micro USB | | | | | | | Serial debugging at 115,200 bauds |
 | J12 | CAN In | +5V | GND | CAN_H | CAN_L | | | Interchangable with J13 |
 | J13 | CAN Out | +5V | GND | CAN_H | CAN_L | | | Refer to JP1 below if end of bus |
 
