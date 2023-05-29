@@ -12989,7 +12989,7 @@
   (gr_text "H" (at 107.1372 51.1556) (layer "F.SilkS") (tstamp 251753ff-5f2f-428b-a9c3-217281064ea6)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "UTSVT - Telemetry \nLeader v2.2\nSummer 2023\n\nDesign by Sijin Woo\nand Chase Block" (at 155.8 113.4) (layer "F.SilkS") (tstamp 26dd17cd-2a16-4d40-a187-99d1011964f5)
+  (gr_text "UTSVT - Telemetry \nLeader v2.1\nFall 2021\n\nDesign by Sijin Woo\nand Chase Block" (at 155.8 113.4) (layer "F.SilkS") (tstamp 26dd17cd-2a16-4d40-a187-99d1011964f5)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "*" (at 97.8408 115.824) (layer "F.SilkS") (tstamp 2fdc0511-68ad-47ba-9e17-576ad1ff9130)
