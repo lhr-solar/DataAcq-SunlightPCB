@@ -1,10 +1,17 @@
 # Telemetry Leader Board
 Authors: Chase Block and Sijin Woo
 
+Firmware: https://github.com/lhr-solar/Sunlight
+
 This hardware includes a GPS, IMU, SD Card Reader, CAN interface, and Ethernet interface.
 The software on this board is responsible for data collection on the solar vehicle.
 
 ![Telemetry-Primary](Telemetry-Primary.png)
+
+## BOM
+[**Interactive BOM (Must download and open in browser)**](ibom.html)
+
+[**Mouser Cart (GPS module purchased directly from Adafruit)**](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=f18cbb5175)
 
 ## Connectors
 | Connection | Name | Pin 1 | 2 | 3 | 4 | 5 | 6 | Notes |
@@ -32,17 +39,10 @@ The software on this board is responsible for data collection on the solar vehic
 | BT1  | RTC Battery | CR1220 |
 | BT2  | GPS Battery | CR1220 |
 
-## BOM
-[**Interactive BOM**](ibom.html)
-
-[**Mouser Cart**](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=f18cbb5175)
-
-*Note: GPS module can be purchased directly from Adafruit.*
-
 ## PCB
-[**PDF w/ back**](Telemetry-PrimaryPCB.pdf)
+[**PDF without traces**](Telemetry-PrimaryPCB.pdf)
 ![image](https://github.com/lhr-solar/Telemetry-PrimaryPCB/assets/89665539/ad073740-9882-4929-ab12-1cdbe04fda4d)
 
 ## Schematic
-[**PDF w/ all sheets**](Telemetry-PrimarySCH.pdf)
+[**PDF with all sheets**](Telemetry-PrimarySCH.pdf)
 ![image](https://github.com/lhr-solar/Telemetry-PrimaryPCB/assets/89665539/b8ef9f8d-9eff-4354-868d-d6086495b24d)
