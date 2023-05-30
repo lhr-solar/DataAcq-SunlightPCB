@@ -16,7 +16,7 @@ The software on this board is responsible for data collection on the solar vehic
 ## Connectors
 | # | Name | Type | Pin 1 | 2 | 3 | 4 | 5 | 6 | Notes |
 | - | - | - | - | - | - | - | - | - | - |
-| J1  | CAN Logic Analyzer | 1x3xP2.54mm Female | GND | TX | RX | | | | USART |
+| J1  | CAN Logic Analyzer | 1x3xP2.54mm Female | GND | TX | RX | | | | |
 | J2  | IMU Logic Analyzer | 1x5xP2.54mm Female | GND | SCL | SDA | INT | RESET | | I2C |
 | J3  | GPS Logic Analyzer | 1x5xP2.54mm Female | GND | TX | RX | FIX | 1PPS | | USART |
 | J4  | Serial Wire Debug | 1x4xP2.54mm Female | +3.3V | SWCLK | SWDIO | GND | | | Flashing |
