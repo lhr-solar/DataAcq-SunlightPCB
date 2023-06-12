@@ -951,6 +951,10 @@
     (uuid f682bc1f-d8f6-4f51-82dc-e6af80e1fa95)
   )
 
+  (text "***add mosfet power protection!!!" (at 135.255 24.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 03268e29-9014-4693-aef1-4b72c52e72bb)
+  )
   (text "Power GND\n(External)" (at 99.06 59.69 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 27e0bb53-9c7a-41ff-8280-81fceffb9348)
