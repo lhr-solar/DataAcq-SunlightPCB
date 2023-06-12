@@ -869,7 +869,7 @@
   (symbol (lib_id "Interface_USB:CP2102N-Axx-xQFN24") (at 149.86 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c4963b2)
-    (property "Reference" "U9" (at 149.86 59.055 0)
+    (property "Reference" "U8" (at 149.86 59.055 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CP2102N-A02-GQFN24" (at 149.86 61.595 0)
@@ -911,8 +911,8 @@
     (pin "9" (uuid f8e8b096-32f7-4784-a86c-7d0c7a3736a6))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "U9") (unit 1)
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -944,11 +944,11 @@
     (pin "6" (uuid 1fbee09e-52e9-4aff-b445-73e6e90db825))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "J11") (unit 1)
-        )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
           (reference "J11") (unit 1)
+        )
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -957,7 +957,7 @@
   (symbol (lib_id "power:GND") (at 88.9 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c4965df)
-    (property "Reference" "#PWR0166" (at 88.9 117.475 0)
+    (property "Reference" "#PWR021" (at 88.9 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 89.027 115.5192 0)
@@ -972,8 +972,8 @@
     (pin "1" (uuid f3f93d0a-2676-4ad8-b32d-7430cb151532))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0166") (unit 1)
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -982,7 +982,7 @@
   (symbol (lib_id "power:GND") (at 149.86 133.985 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c4966cf)
-    (property "Reference" "#PWR0167" (at 149.86 140.335 0)
+    (property "Reference" "#PWR023" (at 149.86 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.987 138.3792 0)
@@ -997,8 +997,8 @@
     (pin "1" (uuid 8268a77b-e69a-4347-8a06-65882264ae86))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0167") (unit 1)
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1028,7 +1028,7 @@
     (pin "4" (uuid f2bd7323-54c5-462d-a008-3624a64880e1))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
           (reference "D5") (unit 1)
         )
       )
@@ -1038,7 +1038,7 @@
   (symbol (lib_id "power:GND") (at 113.03 117.475 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c497074)
-    (property "Reference" "#PWR0168" (at 113.03 123.825 0)
+    (property "Reference" "#PWR022" (at 113.03 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.157 121.8692 0)
@@ -1053,8 +1053,8 @@
     (pin "1" (uuid 34041b5a-f526-4ef6-bcf7-fe0caa8e0fca))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0168") (unit 1)
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -1063,7 +1063,7 @@
   (symbol (lib_id "Device:R") (at 132.08 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c497db9)
-    (property "Reference" "R32" (at 133.858 102.3366 0)
+    (property "Reference" "R25" (at 133.858 102.3366 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47.5k" (at 133.858 104.648 0)
@@ -1082,8 +1082,8 @@
     (pin "2" (uuid 502f63bc-0e7e-4dd9-903b-ba84289faa94))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "R32") (unit 1)
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1092,7 +1092,7 @@
   (symbol (lib_id "Device:R") (at 123.19 93.345 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c497ddb)
-    (property "Reference" "R31" (at 123.19 88.0872 90)
+    (property "Reference" "R24" (at 123.19 88.0872 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22.1k" (at 123.19 90.3986 90)
@@ -1111,8 +1111,8 @@
     (pin "2" (uuid 28970b00-40a5-4c78-a107-76a40e453f9a))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "R31") (unit 1)
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1121,7 +1121,7 @@
   (symbol (lib_id "power:GND") (at 132.08 108.585 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c498dbe)
-    (property "Reference" "#PWR0169" (at 132.08 114.935 0)
+    (property "Reference" "#PWR020" (at 132.08 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.207 112.9792 0)
@@ -1136,8 +1136,8 @@
     (pin "1" (uuid cd87f39f-d22b-49b5-a84e-26e2dd34eb03))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0169") (unit 1)
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1146,7 +1146,7 @@
   (symbol (lib_id "power:+3.3V") (at 147.32 69.215 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c499e7d)
-    (property "Reference" "#PWR0170" (at 147.32 73.025 0)
+    (property "Reference" "#PWR018" (at 147.32 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 147.701 64.8208 0)
@@ -1161,8 +1161,8 @@
     (pin "1" (uuid e3023ba1-a83e-443c-a399-f3eeb05a3b1c))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0170") (unit 1)
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1171,7 +1171,7 @@
   (symbol (lib_id "Device:R") (at 132.08 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c49b01b)
-    (property "Reference" "R33" (at 133.858 74.3966 0)
+    (property "Reference" "R4" (at 133.858 74.3966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 133.858 76.708 0)
@@ -1190,8 +1190,8 @@
     (pin "2" (uuid e5eab8fe-78f7-42df-854b-ab558f4ff7e6))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "R33") (unit 1)
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1219,7 +1219,7 @@
     (pin "2" (uuid f3f4541d-3ed4-4696-9f6c-cd9d28c4589d))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
           (reference "C40") (unit 1)
         )
       )
@@ -1248,7 +1248,7 @@
     (pin "2" (uuid ec95f51e-ee2b-48a3-8d64-101b4d26ec0e))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
           (reference "C41") (unit 1)
         )
       )
@@ -1258,7 +1258,7 @@
   (symbol (lib_id "power:GND") (at 200.025 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c4a4be4)
-    (property "Reference" "#PWR0172" (at 200.025 88.265 0)
+    (property "Reference" "#PWR019" (at 200.025 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.152 86.3092 0)
@@ -1273,8 +1273,8 @@
     (pin "1" (uuid 37e34c18-7d09-407e-80ae-ef66d4def1cf))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0172") (unit 1)
+        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
+          (reference "#PWR019") (unit 1)
         )
       )
     )

@@ -560,11 +560,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 65485d9d-293a-4e60-a6df-a66f6110b8f9)
   )
-  (label "SCL" (at 123.19 104.14 0) (fields_autoplaced)
+  (label "I2C_SCL" (at 123.19 104.14 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7bf7b370-c5c4-4451-8049-f96dbf2e6b5b)
   )
-  (label "SDA" (at 123.19 101.6 0) (fields_autoplaced)
+  (label "I2C_SDA" (at 123.19 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c72f4239-b13a-484b-99ba-4c8dd6160d1f)
   )
@@ -638,7 +638,7 @@
           (reference "U?") (unit 1)
         )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6dd18a"
-          (reference "U8") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -875,7 +875,7 @@
   (symbol (lib_id "power:+3.3V") (at 189.23 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f1bbd65-5c61-4eb7-9a77-7ad72b2231a6)
-    (property "Reference" "#PWR0170" (at 189.23 95.25 0)
+    (property "Reference" "#PWR014" (at 189.23 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 189.611 87.0458 0)
@@ -890,9 +890,6 @@
     (pin "1" (uuid 885d561d-27cf-4376-a75e-5acbf4088798))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0170") (unit 1)
-        )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6dd18a"
           (reference "#PWR014") (unit 1)
         )
@@ -903,7 +900,7 @@
   (symbol (lib_id "power:+3.3V") (at 134.62 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e293b7e-117e-45b3-b35a-6a190cf855aa)
-    (property "Reference" "#PWR0170" (at 134.62 71.12 0)
+    (property "Reference" "#PWR011" (at 134.62 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 135.001 62.9158 0)
@@ -918,9 +915,6 @@
     (pin "1" (uuid 365ab2f2-f086-44ef-88e3-69dbed39cfc5))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0170") (unit 1)
-        )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6dd18a"
           (reference "#PWR011") (unit 1)
         )
@@ -931,7 +925,7 @@
   (symbol (lib_id "power:+3.3V") (at 160.02 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61b02964-1782-4612-b139-f78cc92ead60)
-    (property "Reference" "#PWR0170" (at 160.02 78.74 0)
+    (property "Reference" "#PWR013" (at 160.02 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 160.401 70.5358 0)
@@ -946,9 +940,6 @@
     (pin "1" (uuid a99be9bc-2406-4a72-99cc-d9c4bf84c882))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0170") (unit 1)
-        )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6dd18a"
           (reference "#PWR013") (unit 1)
         )
@@ -959,7 +950,7 @@
   (symbol (lib_id "power:+3.3V") (at 140.97 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d4d2275-b74f-4521-816f-ed8f56228136)
-    (property "Reference" "#PWR0170" (at 140.97 71.12 0)
+    (property "Reference" "#PWR012" (at 140.97 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 141.351 62.9158 0)
@@ -974,9 +965,6 @@
     (pin "1" (uuid 3ecc6d91-03bc-4668-9a75-89079027e2ac))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0170") (unit 1)
-        )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6dd18a"
           (reference "#PWR012") (unit 1)
         )
@@ -987,7 +975,7 @@
   (symbol (lib_id "power:+3.3V") (at 104.14 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid febeafda-ed38-4d5d-a4d6-3ad70264b22d)
-    (property "Reference" "#PWR0170" (at 104.14 95.25 0)
+    (property "Reference" "#PWR06" (at 104.14 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 104.521 87.0458 0)
@@ -1002,9 +990,6 @@
     (pin "1" (uuid 628fd008-be4c-46e1-8f78-6ce32eac2c19))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6d5b75"
-          (reference "#PWR0170") (unit 1)
-        )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6dd18a"
           (reference "#PWR06") (unit 1)
         )

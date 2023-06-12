@@ -1254,7 +1254,7 @@
   (symbol (lib_id "utsvt-connectors:CANConnector") (at 248.92 96.52 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c2b42f3)
-    (property "Reference" "J13" (at 248.92 102.87 0)
+    (property "Reference" "J12" (at 248.92 102.87 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "CAN_Out" (at 248.92 90.17 0)
@@ -1276,7 +1276,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f693e58"
-          (reference "J13") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1604,7 +1604,7 @@
   (symbol (lib_id "utsvt-chips:ADM3055E") (at 110.49 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c2b4359)
-    (property "Reference" "U10" (at 104.14 74.93 0)
+    (property "Reference" "U4" (at 104.14 74.93 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "ADM3055E" (at 115.57 93.98 0)
@@ -1642,7 +1642,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f693e58"
-          (reference "U10") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1701,7 +1701,7 @@
   (symbol (lib_id "utsvt-chips:CDSOT23-T24CAN") (at 205.74 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c2b43a0)
-    (property "Reference" "U11" (at 205.74 92.71 0)
+    (property "Reference" "U5" (at 205.74 92.71 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "CDSOT23-T24CAN" (at 205.74 85.09 0)
@@ -1722,7 +1722,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f693e58"
-          (reference "U11") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1866,7 +1866,7 @@
   (symbol (lib_id "utsvt-connectors:CANConnector") (at 248.92 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f696b9a)
-    (property "Reference" "J12" (at 248.92 86.36 0)
+    (property "Reference" "J11" (at 248.92 86.36 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "CAN_In" (at 248.92 73.66 0)
@@ -1888,7 +1888,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f693e58"
-          (reference "J12") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
