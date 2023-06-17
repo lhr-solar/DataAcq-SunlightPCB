@@ -3734,7 +3734,7 @@
     (uuid b846e4b1-6d82-45fb-b513-8916032cd318)
   )
 
-  (text "2.1 - Removes the external RTC.\n	There's no need to use an external RTC on the telemetry board. The microcontroller itself\n	has an internal RTC that can be powered from the VBAT line and a 32.768kHz oscillator. \n	Courtesy of Chase!\n\n2.2 - New IO and Protection\n	- Bluetooth, never actually tested please research\n	- 4 buttons + 4 switches, hw debouncing\n	- SPI break out, choose best for layout\n	- GPIO break out\n	- Power protection circuitry\n\nFuture Changes\n-Add keepout area around RTC clock (prevent noise), 8Mhz clock too?\n-Add impedance matching resistor to Ethernet line, consider all impedance matching\n-PR Checklist"
+  (text "2.1 - Removes the external RTC.\n	There's no need to use an external RTC on the telemetry board. The microcontroller itself\n	has an internal RTC that can be powered from the VBAT line and a 32.768kHz oscillator. \n	Courtesy of Chase!\n\n2.2 - New IO and Protection\n	- Bluetooth, never actually tested please research\n	- 4 buttons + 4 switches, HW debounced\n	- SPI break out, choose best for layout\n	- GPIO break out\n	- Power protection circuitry\n\nFuture Changes\n-Add keepout area around RTC clock (prevent noise), 8Mhz clock too?\n-Add impedance matching resistor to Ethernet line, consider all impedance matching\n-PR Checklist"
     (at 254 151.13 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 0baeba64-513c-4923-827c-15453c821d0b)

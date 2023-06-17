@@ -483,8 +483,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 609c7b50-8132-407b-b4df-6a4577ba4435)
   )
-  (text "https://www.st.com/resource/en/datasheet/bluenrg-2.pdf"
-    (at 25.4 99.695 0)
+  (text "SOC datasheet" (at 112.395 97.155 0)
     (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://www.st.com/resource/en/datasheet/bluenrg-2.pdf"))
     (uuid d7986db0-d233-449e-8cd7-a780d875aa53)
   )
