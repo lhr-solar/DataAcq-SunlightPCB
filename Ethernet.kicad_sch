@@ -2899,7 +2899,7 @@
   (symbol (lib_id "Power_Protection:USBLC6-4SC6") (at 180.34 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8f389f)
-    (property "Reference" "U12" (at 185.42 54.61 0)
+    (property "Reference" "U11" (at 185.42 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USBLC6-4SC6" (at 187.96 72.39 0)
@@ -2923,7 +2923,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f716da6"
-          (reference "U12") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -2932,7 +2932,7 @@
   (symbol (lib_id "utsvt-chips:LAN8742A-CZ-TR") (at 96.52 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8f7d15)
-    (property "Reference" "U11" (at 80.01 78.74 0)
+    (property "Reference" "U10" (at 80.01 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LAN8742A-CZ-TR" (at 78.74 81.28 0)
@@ -2975,7 +2975,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f716da6"
-          (reference "U11") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )

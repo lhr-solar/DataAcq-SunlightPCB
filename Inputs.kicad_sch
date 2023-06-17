@@ -113,7 +113,7 @@
     (uuid e5387986-ee91-43a2-ba89-bed7d2d5ed27)
   )
 
-  (text "4 buttons\n4 switches" (at 161.925 58.42 0)
+  (text "4 buttons\n4 switches\nhw debouncing" (at 161.925 58.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fe482f91-51ff-4b22-b2e8-d3a28602a040)
   )

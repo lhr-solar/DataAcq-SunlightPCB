@@ -6,4 +6,5 @@
   (lib (name "utsvt-misc")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-misc.lib")(options "")(descr ""))
   (lib (name "utsvt-power-regulators")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-power-regulators.lib")(options "")(descr ""))
   (lib (name "SDDJE32700")(type "Legacy")(uri "${KIPRJMOD}/common/UTSVT_Special.pretty/SDDJE32700.lib")(options "")(descr ""))
+  (lib (name "BLUENRG-M2SA")(type "Legacy")(uri "${KIPRJMOD}/common/UTSVT_ICs.pretty/BLUENRG-M2SA.lib")(options "")(descr ""))
 )
