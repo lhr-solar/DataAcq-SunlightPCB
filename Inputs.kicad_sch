@@ -783,8 +783,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 3dc2e70a-8d9e-4db5-b3fe-620b6c0a5954)
   )
-  (text "resistor to avoid shorting capacitor\nwhen switches are closed or damaging\ndip switches"
-    (at 237.49 95.25 0)
+  (text "REMOVE RESISTOR" (at 237.49 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 69068bd9-2c99-40d8-bb04-ad8f2195b8b1)
   )
