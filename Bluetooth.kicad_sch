@@ -495,9 +495,6 @@
     (pin "2" (uuid 10a316b2-49db-4ee3-a13b-0886a59e3f23))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6dd18a"
-          (reference "C39") (unit 1)
-        )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/57884461-52ec-4fdf-8849-cb39fe7f004b"
           (reference "C62") (unit 1)
         )
@@ -683,9 +680,6 @@
     (pin "2" (uuid 8049449b-72b3-4119-9313-6177d28b7ca7))
     (instances
       (project "Telemetry-Primary"
-        (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6dd18a"
-          (reference "C39") (unit 1)
-        )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/57884461-52ec-4fdf-8849-cb39fe7f004b"
           (reference "C63") (unit 1)
         )
