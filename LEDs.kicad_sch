@@ -457,7 +457,7 @@
   (symbol (lib_id "Device:LED") (at 208.28 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c3c069f)
-    (property "Reference" "D12" (at 211.2518 96.8248 90)
+    (property "Reference" "D5" (at 211.2518 96.8248 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Heartbeat" (at 211.2518 99.1362 90)
@@ -483,7 +483,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "D12") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -492,7 +492,7 @@
   (symbol (lib_id "Device:R") (at 208.28 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c3c06d9)
-    (property "Reference" "R42" (at 210.058 105.5116 0)
+    (property "Reference" "R8" (at 210.058 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680" (at 210.058 107.823 0)
@@ -512,7 +512,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "R42") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -521,7 +521,7 @@
   (symbol (lib_id "Device:LED") (at 132.08 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c3c070f)
-    (property "Reference" "D8" (at 135.0518 96.8248 90)
+    (property "Reference" "D9" (at 135.0518 96.8248 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MPPT0" (at 135.0518 99.1362 90)
@@ -544,7 +544,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "D8") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -553,7 +553,7 @@
   (symbol (lib_id "Device:R") (at 132.08 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c3c0718)
-    (property "Reference" "R38" (at 133.858 105.5116 0)
+    (property "Reference" "R12" (at 133.858 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "750" (at 133.858 107.823 0)
@@ -573,7 +573,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "R38") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -607,7 +607,7 @@
   (symbol (lib_id "Device:LED") (at 170.18 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c585dbb)
-    (property "Reference" "D10" (at 173.1518 96.8248 90)
+    (property "Reference" "D7" (at 173.1518 96.8248 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Dashboard" (at 173.1518 99.1362 90)
@@ -630,7 +630,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "D10") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -639,7 +639,7 @@
   (symbol (lib_id "Device:R") (at 170.18 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c585dc3)
-    (property "Reference" "R40" (at 171.958 105.5116 0)
+    (property "Reference" "R10" (at 171.958 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "750" (at 171.958 107.823 0)
@@ -659,7 +659,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "R40") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -668,7 +668,7 @@
   (symbol (lib_id "Device:LED") (at 151.13 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6cf93b)
-    (property "Reference" "D9" (at 154.1018 96.8248 90)
+    (property "Reference" "D8" (at 154.1018 96.8248 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Motor" (at 154.1018 99.1362 90)
@@ -691,7 +691,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "D9") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -700,7 +700,7 @@
   (symbol (lib_id "Device:R") (at 151.13 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6cf943)
-    (property "Reference" "R39" (at 152.908 105.5116 0)
+    (property "Reference" "R11" (at 152.908 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "750" (at 152.908 107.823 0)
@@ -720,7 +720,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "R39") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -729,7 +729,7 @@
   (symbol (lib_id "Device:LED") (at 189.23 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f16ced0)
-    (property "Reference" "D11" (at 192.2018 96.8248 90)
+    (property "Reference" "D6" (at 192.2018 96.8248 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BPS" (at 192.2018 99.1362 90)
@@ -752,7 +752,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "D11") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -761,7 +761,7 @@
   (symbol (lib_id "Device:R") (at 189.23 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f16ced6)
-    (property "Reference" "R41" (at 191.008 105.5116 0)
+    (property "Reference" "R9" (at 191.008 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "750" (at 191.008 107.823 0)
@@ -781,7 +781,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "R41") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -790,7 +790,7 @@
   (symbol (lib_id "Device:R") (at 91.44 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fe2d5d7)
-    (property "Reference" "R36" (at 93.218 105.5116 0)
+    (property "Reference" "R14" (at 93.218 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "750" (at 93.218 107.823 0)
@@ -810,7 +810,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "R36") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -819,7 +819,7 @@
   (symbol (lib_id "Device:LED") (at 91.44 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fe2d5e1)
-    (property "Reference" "D6" (at 94.4118 96.8248 90)
+    (property "Reference" "D11" (at 94.4118 96.8248 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RTDArray" (at 94.4118 99.1362 90)
@@ -842,7 +842,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "D6") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -851,7 +851,7 @@
   (symbol (lib_id "Device:R") (at 111.76 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fea8b72)
-    (property "Reference" "R37" (at 113.538 105.5116 0)
+    (property "Reference" "R13" (at 113.538 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "750" (at 113.538 107.823 0)
@@ -871,7 +871,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "R37") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -880,7 +880,7 @@
   (symbol (lib_id "Device:LED") (at 111.76 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fea8b7c)
-    (property "Reference" "D7" (at 114.7318 96.8248 90)
+    (property "Reference" "D10" (at 114.7318 96.8248 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MPPT1" (at 114.7318 99.1362 90)
@@ -903,7 +903,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "D7") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -912,7 +912,7 @@
   (symbol (lib_id "Device:LED") (at 71.12 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0cb1c37b-76cc-453c-956a-e9627cfef14c)
-    (property "Reference" "D3" (at 74.0918 96.8248 90)
+    (property "Reference" "D12" (at 74.0918 96.8248 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RTDArray" (at 74.0918 99.1362 90)
@@ -935,7 +935,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "D3") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -944,7 +944,7 @@
   (symbol (lib_id "Device:R") (at 71.12 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35093204-29b1-4487-9349-1ff1a42919b4)
-    (property "Reference" "R26" (at 72.898 105.5116 0)
+    (property "Reference" "R15" (at 72.898 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "750" (at 72.898 107.823 0)
@@ -964,7 +964,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f683c38"
-          (reference "R26") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )

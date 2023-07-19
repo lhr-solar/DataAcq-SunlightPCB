@@ -3773,8 +3773,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6c81b298-2e64-4aaf-94a1-836534fb1aef)
   )
-  (text "Check levels of coin cell battery without\nhaving the led constantly consume power."
-    (at 316.23 88.9 0)
+  (text "Check levels of external RTC battery without\nhaving the led constantly consume power."
+    (at 315.595 88.9 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6eb50205-929e-4ea1-96a1-31b6a00972eb)
   )
@@ -3889,13 +3889,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 09839c40-a013-4c59-80c5-6b5b1b02b624)
   )
+  (label "SPI3_CLK" (at 397.51 55.245 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 0987582c-7d12-41d9-babe-e248c2dddb41)
+  )
   (label "PD0" (at 211.455 168.275 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 09b2ea67-1099-40d3-883c-844de7a330fd)
-  )
-  (label "SPI3_MOSI" (at 397.51 60.325 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 0ce203f0-9b21-47a3-8cab-605cd2fba647)
   )
   (label "PD10" (at 211.455 193.675 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -4009,10 +4009,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 305f4e9b-3d0a-4f84-9a24-a851e356fadd)
   )
-  (label "SPI3_CS" (at 397.51 50.165 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 34394d59-1b49-41dd-ab59-277cce855ef7)
-  )
   (label "USART3_TX" (at 59.055 95.885 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 344e6e44-9e1e-4414-ae0f-175aab210b69)
@@ -4044,10 +4040,6 @@
   (label "PF13" (at 123.825 140.335 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3e64f080-eb0b-4dc4-979d-61365bdbbcef)
-  )
-  (label "SPI3_MISO" (at 397.51 52.705 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 3f671f90-4125-4e6a-85a6-bc0b31696dd6)
   )
   (label "PF[11..15]" (at 59.055 202.565 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -4105,9 +4097,9 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 55d70c22-c28c-457f-8e15-b3db3a84a737)
   )
-  (label "PD1" (at 397.51 62.865 180) (fields_autoplaced)
+  (label "SPI3_CS" (at 397.51 62.865 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 5a51aec0-6ecf-4468-93f8-622dc28743ad)
+    (uuid 587311c4-f78a-4d43-89af-750c9ebf80a0)
   )
   (label "SPI2_MISO" (at 211.455 117.475 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -4157,6 +4149,14 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7056d372-b728-4e71-9f7a-3f273b92924e)
   )
+  (label "SPI3_MOSI" (at 397.51 52.705 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 7124102e-6f3e-4aea-9e0e-1094be04aa7f)
+  )
+  (label "SPI3_MISO" (at 397.51 60.325 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 71dcf52b-649f-4e42-a387-f22df3d4570e)
+  )
   (label "I2C2_SDA" (at 123.825 107.315 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 72831428-58cc-45aa-92e1-48a0215cfa2e)
@@ -4164,10 +4164,6 @@
   (label "USART2_RX" (at 211.455 183.515 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 76aefa43-07b5-4b8d-9711-6c986f900414)
-  )
-  (label "SPI3_CLK" (at 397.51 57.785 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 79616fec-9447-404f-ad9c-c003cee65c3e)
   )
   (label "PE12" (at 123.825 180.975 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4253,6 +4249,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9e878176-5c9e-4823-8678-406159fe95d9)
   )
+  (label "PD1" (at 397.51 50.165 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 9ef34428-885e-4ed3-b9b0-012cee0740d4)
+  )
   (label "PG8" (at 123.825 84.455 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a0a20f1a-2958-4e91-9818-3d3fb70d3b95)
@@ -4312,6 +4312,10 @@
   (label "USART3_TX" (at 211.455 188.595 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b3b6115d-f0be-4046-a824-db4e97c57f39)
+  )
+  (label "PD0" (at 397.51 57.785 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid b4ee963e-28fe-4140-94d0-a61a80e51337)
   )
   (label "PE[7..9]" (at 121.285 170.815 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4436,10 +4440,6 @@
   (label "SWCLK" (at 361.95 59.055 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e4886179-5d58-4a03-9a2a-0dcb4dabe971)
-  )
-  (label "PD0" (at 397.51 55.245 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid e6878c12-d054-40f4-84a4-9930ba31c076)
   )
   (label "PE7" (at 123.825 168.275 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4568,7 +4568,7 @@
   (symbol (lib_id "Device:C_Small") (at 263.525 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f723fe6)
-    (property "Reference" "C8" (at 265.8618 57.8866 0)
+    (property "Reference" "C52" (at 265.8618 57.8866 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 265.8618 60.198 0)
@@ -4588,7 +4588,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C8") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -4597,7 +4597,7 @@
   (symbol (lib_id "Device:C_Small") (at 253.365 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f724206)
-    (property "Reference" "C6" (at 255.7018 57.8866 0)
+    (property "Reference" "C49" (at 255.7018 57.8866 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 255.7018 60.198 0)
@@ -4617,7 +4617,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C6") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
     )
@@ -4676,7 +4676,7 @@
   (symbol (lib_id "Device:C_Small") (at 252.73 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f764328)
-    (property "Reference" "C5" (at 255.0668 31.8516 0)
+    (property "Reference" "C48" (at 255.0668 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 255.0668 34.163 0)
@@ -4696,7 +4696,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C5") (unit 1)
+          (reference "C48") (unit 1)
         )
       )
     )
@@ -4705,7 +4705,7 @@
   (symbol (lib_id "Device:C_Small") (at 364.49 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f7645f2)
-    (property "Reference" "C20" (at 366.8268 31.8516 0)
+    (property "Reference" "C54" (at 366.8268 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 366.8268 34.163 0)
@@ -4725,7 +4725,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C20") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -4734,7 +4734,7 @@
   (symbol (lib_id "Device:C_Small") (at 262.89 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f764cec)
-    (property "Reference" "C7" (at 265.2268 31.8516 0)
+    (property "Reference" "C44" (at 265.2268 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 265.2268 34.163 0)
@@ -4754,7 +4754,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C7") (unit 1)
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -4763,7 +4763,7 @@
   (symbol (lib_id "Device:C_Small") (at 273.05 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f765574)
-    (property "Reference" "C11" (at 275.3868 31.8516 0)
+    (property "Reference" "C35" (at 275.3868 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 275.3868 34.163 0)
@@ -4783,7 +4783,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C11") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -4792,7 +4792,7 @@
   (symbol (lib_id "Device:C_Small") (at 283.21 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f765bf3)
-    (property "Reference" "C12" (at 285.5468 31.8516 0)
+    (property "Reference" "C34" (at 285.5468 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 285.5468 34.163 0)
@@ -4812,7 +4812,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C12") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -4821,7 +4821,7 @@
   (symbol (lib_id "Device:C_Small") (at 293.37 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f7669c1)
-    (property "Reference" "C13" (at 295.7068 31.8516 0)
+    (property "Reference" "C33" (at 295.7068 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 295.7068 34.163 0)
@@ -4841,7 +4841,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C13") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -4900,7 +4900,7 @@
   (symbol (lib_id "Device:C_Small") (at 273.05 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f7d1c8e)
-    (property "Reference" "C10" (at 275.3868 57.8866 0)
+    (property "Reference" "C46" (at 275.3868 57.8866 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 275.3868 60.198 0)
@@ -4920,7 +4920,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C10") (unit 1)
+          (reference "C46") (unit 1)
         )
       )
     )
@@ -4983,7 +4983,7 @@
   (symbol (lib_id "utsvt-misc:Logo_Placeholder") (at 389.255 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f7edfb8)
-    (property "Reference" "LOGO1" (at 389.255 19.05 0)
+    (property "Reference" "LOGO2" (at 389.255 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Dr. Hallock" (at 392.811 22.86 0)
@@ -5001,7 +5001,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "LOGO1") (unit 1)
+          (reference "LOGO2") (unit 1)
         )
       )
     )
@@ -5010,7 +5010,7 @@
   (symbol (lib_id "utsvt-misc:Logo_Placeholder") (at 389.255 29.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f7eea4b)
-    (property "Reference" "LOGO2" (at 389.255 26.035 0)
+    (property "Reference" "LOGO1" (at 389.255 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "UTSVT Logo" (at 392.811 29.845 0)
@@ -5028,7 +5028,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "LOGO2") (unit 1)
+          (reference "LOGO1") (unit 1)
         )
       )
     )
@@ -5064,7 +5064,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 389.255 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f7f32ca)
-    (property "Reference" "H2" (at 391.795 40.7416 0)
+    (property "Reference" "H4" (at 391.795 40.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M.3" (at 391.795 43.053 0)
@@ -5082,7 +5082,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "H2") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -5091,7 +5091,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 398.145 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f7f3445)
-    (property "Reference" "H3" (at 400.685 35.0266 0)
+    (property "Reference" "H2" (at 400.685 35.0266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M.3" (at 400.685 37.338 0)
@@ -5109,7 +5109,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "H3") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -5118,7 +5118,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 398.145 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f7f359f)
-    (property "Reference" "H4" (at 400.685 40.7416 0)
+    (property "Reference" "H3" (at 400.685 40.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M.3" (at 400.685 43.053 0)
@@ -5136,7 +5136,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "H4") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -5145,7 +5145,7 @@
   (symbol (lib_id "MCU_ST_STM32F4:STM32F429ZITx") (at 167.64 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f7fe4a6)
-    (property "Reference" "U1" (at 167.64 122.555 0)
+    (property "Reference" "U9" (at 167.64 122.555 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STM32F429ZITx" (at 167.64 125.095 0)
@@ -5307,7 +5307,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "U1") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -5341,7 +5341,7 @@
   (symbol (lib_id "Device:C_Small") (at 303.53 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8c970e)
-    (property "Reference" "C14" (at 305.8668 31.8516 0)
+    (property "Reference" "C37" (at 305.8668 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 305.8668 34.163 0)
@@ -5361,7 +5361,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C14") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -5370,7 +5370,7 @@
   (symbol (lib_id "Device:C_Small") (at 313.69 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8c9714)
-    (property "Reference" "C15" (at 316.0268 31.8516 0)
+    (property "Reference" "C43" (at 316.0268 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 316.0268 34.163 0)
@@ -5390,7 +5390,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C15") (unit 1)
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -5399,7 +5399,7 @@
   (symbol (lib_id "Device:C_Small") (at 323.85 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8c971a)
-    (property "Reference" "C16" (at 326.1868 31.8516 0)
+    (property "Reference" "C47" (at 326.1868 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 326.1868 34.163 0)
@@ -5419,7 +5419,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C16") (unit 1)
+          (reference "C47") (unit 1)
         )
       )
     )
@@ -5428,7 +5428,7 @@
   (symbol (lib_id "Device:C_Small") (at 334.01 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8c9720)
-    (property "Reference" "C17" (at 336.3468 31.8516 0)
+    (property "Reference" "C55" (at 336.3468 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 336.3468 34.163 0)
@@ -5448,7 +5448,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C17") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -5457,7 +5457,7 @@
   (symbol (lib_id "Device:C_Small") (at 344.17 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8c9726)
-    (property "Reference" "C18" (at 346.5068 31.8516 0)
+    (property "Reference" "C53" (at 346.5068 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 346.5068 34.163 0)
@@ -5477,7 +5477,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C18") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -5486,7 +5486,7 @@
   (symbol (lib_id "Device:C_Small") (at 354.33 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8c972c)
-    (property "Reference" "C19" (at 356.6668 31.8516 0)
+    (property "Reference" "C50" (at 356.6668 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 356.6668 34.163 0)
@@ -5506,7 +5506,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C19") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -5515,7 +5515,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 69.215 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ff13c6d)
-    (property "Reference" "J3" (at 71.247 97.3582 0)
+    (property "Reference" "J13" (at 71.247 97.3582 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GPS_LogicAnalyzer" (at 71.247 99.6696 0)
@@ -5538,7 +5538,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "J3") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -5572,7 +5572,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 69.215 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ff8ada6)
-    (property "Reference" "J5" (at 71.247 120.2182 0)
+    (property "Reference" "J10" (at 71.247 120.2182 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SDCard_LogicAnalyzer" (at 71.247 122.5296 0)
@@ -5596,7 +5596,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "J5") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -5630,7 +5630,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 69.215 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ffdc894)
-    (property "Reference" "J1" (at 71.247 51.0032 0)
+    (property "Reference" "J8" (at 71.247 51.0032 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN_LogicAnalyzer" (at 71.247 53.3146 0)
@@ -5651,7 +5651,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "J1") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -5715,7 +5715,7 @@
   (symbol (lib_id "Device:Crystal_Small") (at 115.57 57.785 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1122d101-ae32-4f29-be9c-e8bf338ee4a1)
-    (property "Reference" "Y1" (at 117.8052 56.6166 90)
+    (property "Reference" "Y2" (at 117.8052 56.6166 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8M" (at 117.8052 58.928 90)
@@ -5735,7 +5735,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "Y1") (unit 1)
+          (reference "Y2") (unit 1)
         )
       )
     )
@@ -5985,7 +5985,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 69.215 71.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77397d70-e540-4d2a-b97a-f81b2a435d7d)
-    (property "Reference" "J2" (at 71.247 70.6882 0)
+    (property "Reference" "J7" (at 71.247 70.6882 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN_LogicAnalyzer" (at 71.247 72.9996 0)
@@ -6006,7 +6006,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "J2") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -6040,7 +6040,7 @@
       )
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C64") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -6092,7 +6092,7 @@
       )
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "D2") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -6126,7 +6126,7 @@
       )
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "Y3") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -6135,7 +6135,7 @@
   (symbol (lib_id "Device:C_Small") (at 103.505 53.975 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 915024bd-d594-4138-9002-7f4f182d6686)
-    (property "Reference" "C3" (at 103.505 48.1584 90)
+    (property "Reference" "C15" (at 103.505 48.1584 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "18p" (at 103.505 50.4698 90)
@@ -6155,7 +6155,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C3") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -6164,7 +6164,7 @@
   (symbol (lib_id "Device:C_Small") (at 123.825 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a2e1849-7ab4-404f-98ad-887ccc3f2dac)
-    (property "Reference" "C1" (at 126.1618 203.3016 0)
+    (property "Reference" "C51" (at 126.1618 203.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 126.1618 205.613 0)
@@ -6184,7 +6184,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C1") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
     )
@@ -6193,7 +6193,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 378.46 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0ada20a-7b23-4c1b-bc83-630252fc9fb0)
-    (property "Reference" "J4" (at 380.492 59.2582 0)
+    (property "Reference" "J5" (at 380.492 59.2582 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SWD" (at 380.492 61.5696 0)
@@ -6215,7 +6215,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -6224,7 +6224,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 403.86 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a30474b2-d350-4fd7-8387-e17cbc59ff28)
-    (property "Reference" "J13" (at 401.32 66.04 0)
+    (property "Reference" "J6" (at 401.32 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Breakouts" (at 395.605 67.945 0)
@@ -6248,7 +6248,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "J13") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -6280,7 +6280,7 @@
           (reference "J7") (unit 1)
         )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "J14") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -6289,7 +6289,7 @@
   (symbol (lib_id "Device:C_Small") (at 133.985 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b94fd4a3-903c-481d-a8da-fcda444afda2)
-    (property "Reference" "C2" (at 136.3218 203.3016 0)
+    (property "Reference" "C36" (at 136.3218 203.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 136.3218 205.613 0)
@@ -6309,7 +6309,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C2") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -6343,7 +6343,7 @@
       )
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C50") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -6408,7 +6408,7 @@
       )
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "R3") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -6552,7 +6552,7 @@
       )
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C35") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -6586,7 +6586,7 @@
       )
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C9") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -6595,7 +6595,7 @@
   (symbol (lib_id "Device:C_Small") (at 103.505 61.595 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdb85fcb-d284-4b2a-9c51-ad5d106238f5)
-    (property "Reference" "C4" (at 103.505 66.675 90)
+    (property "Reference" "C14" (at 103.505 66.675 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "18p" (at 103.505 64.135 90)
@@ -6615,7 +6615,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce"
-          (reference "C4") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )

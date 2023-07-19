@@ -1340,7 +1340,7 @@
   (symbol (lib_id "Device:C") (at 113.03 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c35f7e4)
-    (property "Reference" "C21" (at 116.0272 88.3666 0)
+    (property "Reference" "C30" (at 116.0272 88.3666 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 116.0272 90.678 0)
@@ -1360,7 +1360,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "C21") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -1394,7 +1394,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 102.87 83.185 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c37d606)
-    (property "Reference" "TP1" (at 102.87 74.295 0)
+    (property "Reference" "TP6" (at 102.87 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "+12V_TP" (at 102.87 76.835 0)
@@ -1413,7 +1413,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "TP1") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -1422,7 +1422,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 158.75 83.185 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c37e6a3)
-    (property "Reference" "TP3" (at 160.2232 80.137 0)
+    (property "Reference" "TP9" (at 160.2232 80.137 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "+5V_TP" (at 160.2232 82.4484 0)
@@ -1441,7 +1441,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "TP3") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -1450,7 +1450,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 158.75 97.155 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c37f6b1)
-    (property "Reference" "TP4" (at 160.2232 97.8408 0)
+    (property "Reference" "TP7" (at 160.2232 97.8408 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GND_TP" (at 160.2232 100.1522 0)
@@ -1469,7 +1469,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "TP4") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -1478,7 +1478,7 @@
   (symbol (lib_id "utsvt-power-regulators:RI3-1205S") (at 134.62 84.455 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c38c4fe)
-    (property "Reference" "U2" (at 134.62 80.264 0)
+    (property "Reference" "U6" (at 134.62 80.264 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RI3-1205S" (at 134.62 82.5754 0)
@@ -1500,7 +1500,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "U2") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1701,7 +1701,7 @@
   (symbol (lib_id "Regulator_Linear:LD1117S33TR_SOT223") (at 224.79 84.455 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c70247c)
-    (property "Reference" "U3" (at 224.79 78.3082 0)
+    (property "Reference" "U7" (at 224.79 78.3082 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LD1117-3.3_SOT223" (at 224.79 80.6196 0)
@@ -1722,7 +1722,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "U3") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -1731,7 +1731,7 @@
   (symbol (lib_id "Device:C") (at 212.09 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c702937)
-    (property "Reference" "C22" (at 215.011 88.3666 0)
+    (property "Reference" "C10" (at 215.011 88.3666 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 215.011 90.678 0)
@@ -1751,7 +1751,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "C22") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1760,7 +1760,7 @@
   (symbol (lib_id "Device:C") (at 237.49 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c7029c7)
-    (property "Reference" "C23" (at 240.411 88.3666 0)
+    (property "Reference" "C13" (at 240.411 88.3666 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 240.411 90.678 0)
@@ -1780,7 +1780,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "C23") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1839,7 +1839,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 242.57 83.185 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c708412)
-    (property "Reference" "TP5" (at 244.0432 80.137 0)
+    (property "Reference" "TP8" (at 244.0432 80.137 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "+3.3V_TP" (at 243.84 78.105 0)
@@ -1858,7 +1858,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "TP5") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -1867,7 +1867,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 102.87 95.885 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c82cea3)
-    (property "Reference" "TP2" (at 104.3432 96.5708 0)
+    (property "Reference" "TP5" (at 104.3432 96.5708 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GNDPWR_TP" (at 104.3432 98.8822 0)
@@ -1886,7 +1886,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "TP2") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -1895,7 +1895,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 51.435 92.075 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f1149c6)
-    (property "Reference" "J7" (at 46.355 90.805 0)
+    (property "Reference" "J4" (at 46.355 90.805 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PowerConn" (at 43.815 93.345 0)
@@ -1915,7 +1915,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "J7") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1999,7 +1999,7 @@
   (symbol (lib_id "Device:D_Zener") (at 76.835 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05748d26-0127-4838-a903-3e91660e0b4a)
-    (property "Reference" "D13" (at 80.01 79.375 90)
+    (property "Reference" "D2" (at 80.01 79.375 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Zener" (at 80.01 81.915 90)
@@ -2019,7 +2019,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "D13") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2028,7 +2028,7 @@
   (symbol (lib_id "Device:R") (at 66.675 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 598d31cb-a31d-429c-ae6e-3bec7ea4ef36)
-    (property "Reference" "R32" (at 69.215 88.9 0)
+    (property "Reference" "R4" (at 69.215 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10" (at 69.215 91.44 0)
@@ -2045,7 +2045,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "R32") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2054,7 +2054,7 @@
   (symbol (lib_id "Device:C") (at 247.65 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f5d6915-d386-4007-a59b-85d70a672312)
-    (property "Reference" "C60" (at 250.571 88.3666 0)
+    (property "Reference" "C38" (at 250.571 88.3666 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 250.571 90.678 0)
@@ -2074,7 +2074,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "C60") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -2108,7 +2108,7 @@
   (symbol (lib_id "Device:C") (at 257.81 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7937d2b-ab62-4599-a42d-4739d7bde7d7)
-    (property "Reference" "C61" (at 260.731 88.3666 0)
+    (property "Reference" "C41" (at 260.731 88.3666 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" ".1u" (at 260.731 90.678 0)
@@ -2128,7 +2128,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6cdfd6"
-          (reference "C61") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )

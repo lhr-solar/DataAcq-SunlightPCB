@@ -537,7 +537,7 @@
   (symbol (lib_id "Device:LED_Small") (at 118.11 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f6732be)
-    (property "Reference" "D4" (at 119.888 86.4616 90)
+    (property "Reference" "D13" (at 119.888 86.4616 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GPS_FIX" (at 119.888 88.773 90)
@@ -566,7 +566,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6efd51"
-          (reference "D4") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -575,7 +575,7 @@
   (symbol (lib_id "Device:R_Small") (at 118.11 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f6794c0)
-    (property "Reference" "R27" (at 119.6086 80.1116 0)
+    (property "Reference" "R32" (at 119.6086 80.1116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "750" (at 119.6086 82.423 0)
@@ -595,7 +595,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6efd51"
-          (reference "R27") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -629,7 +629,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 207.645 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fb64207)
-    (property "Reference" "J10" (at 210.185 99.06 0)
+    (property "Reference" "J14" (at 210.185 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMAConn" (at 210.185 101.3714 0)
@@ -649,7 +649,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6efd51"
-          (reference "J10") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -658,7 +658,7 @@
   (symbol (lib_id "utsvt-chips:MTK3339") (at 183.515 73.025 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fb7a882)
-    (property "Reference" "U7" (at 183.515 68.834 0)
+    (property "Reference" "U12" (at 183.515 68.834 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MTK3339" (at 183.515 71.1454 0)
@@ -696,7 +696,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f6efd51"
-          (reference "U7") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )

@@ -371,7 +371,7 @@
   (symbol (lib_id "Connector:Micro_SD_Card_Det2") (at 151.765 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f718a2c)
-    (property "Reference" "J9" (at 150.495 78.3082 0)
+    (property "Reference" "J15" (at 150.495 78.3082 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Micro_SD_Card_Det" (at 150.495 80.6196 0)
@@ -400,7 +400,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/00000000-0000-0000-0000-00005f71644d"
-          (reference "J9") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )

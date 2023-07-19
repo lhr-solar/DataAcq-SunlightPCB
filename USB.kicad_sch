@@ -948,7 +948,7 @@
           (reference "J11") (unit 1)
         )
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
-          (reference "J6") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1007,7 +1007,7 @@
   (symbol (lib_id "Power_Protection:SP0503BAHT") (at 113.03 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c496c9b)
-    (property "Reference" "D5" (at 118.237 109.9566 0)
+    (property "Reference" "D3" (at 118.237 109.9566 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SP0503BAHTG" (at 114.3 114.935 0)
@@ -1029,7 +1029,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
-          (reference "D5") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1063,7 +1063,7 @@
   (symbol (lib_id "Device:R") (at 132.08 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c497db9)
-    (property "Reference" "R25" (at 133.858 102.3366 0)
+    (property "Reference" "R36" (at 133.858 102.3366 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47.5k" (at 133.858 104.648 0)
@@ -1083,7 +1083,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
-          (reference "R25") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -1092,7 +1092,7 @@
   (symbol (lib_id "Device:R") (at 123.19 93.345 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c497ddb)
-    (property "Reference" "R24" (at 123.19 88.0872 90)
+    (property "Reference" "R35" (at 123.19 88.0872 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22.1k" (at 123.19 90.3986 90)
@@ -1112,7 +1112,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
-          (reference "R24") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -1171,7 +1171,7 @@
   (symbol (lib_id "Device:R") (at 132.08 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c49b01b)
-    (property "Reference" "R4" (at 133.858 74.3966 0)
+    (property "Reference" "R6" (at 133.858 74.3966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 133.858 76.708 0)
@@ -1191,7 +1191,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
-          (reference "R4") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1200,7 +1200,7 @@
   (symbol (lib_id "Device:C") (at 187.325 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c49cc52)
-    (property "Reference" "C40" (at 190.246 74.3966 0)
+    (property "Reference" "C42" (at 190.246 74.3966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 190.246 76.708 0)
@@ -1220,7 +1220,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
-          (reference "C40") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -1229,7 +1229,7 @@
   (symbol (lib_id "Device:C") (at 200.025 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c4a4791)
-    (property "Reference" "C41" (at 202.946 74.3966 0)
+    (property "Reference" "C45" (at 202.946 74.3966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 202.946 76.708 0)
@@ -1249,7 +1249,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/65ccd205-e43e-414f-91f4-e0a7c33b5687"
-          (reference "C41") (unit 1)
+          (reference "C45") (unit 1)
         )
       )
     )

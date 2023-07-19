@@ -476,7 +476,7 @@
   (symbol (lib_id "Device:C") (at 96.52 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02fb15d1-726a-438f-b3de-6d42e4764539)
-    (property "Reference" "C39" (at 99.441 91.5416 0)
+    (property "Reference" "C23" (at 99.441 91.5416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 99.441 93.853 0)
@@ -496,7 +496,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/57884461-52ec-4fdf-8849-cb39fe7f004b"
-          (reference "C62") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -505,7 +505,7 @@
   (symbol (lib_id "Device:R") (at 142.24 73.025 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25d90740-33a1-4728-872a-97f7d5f8ad02)
-    (property "Reference" "R31" (at 144.018 71.8566 0)
+    (property "Reference" "R3" (at 144.018 71.8566 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 144.018 74.168 0)
@@ -522,7 +522,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/57884461-52ec-4fdf-8849-cb39fe7f004b"
-          (reference "R31") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "BPS-Leader"
@@ -596,13 +596,13 @@
   (symbol (lib_id "BLUENRG-M2SA:BLUENRG-M2SA") (at 101.6 76.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 922ee120-e9cc-4194-9809-a5af54f531d4)
-    (property "Reference" "U9" (at 117.475 91.44 0)
+    (property "Reference" "U1" (at 117.475 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BLUENRG-M2SA" (at 111.76 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "BLUENRGM2SA" (at 133.35 64.135 0)
+    (property "Footprint" "UTSVT_ICs:BLUENRGM2SA" (at 133.35 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/389/bluenrg_m2-1670812.pdf" (at 133.35 66.675 0)
@@ -652,7 +652,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/57884461-52ec-4fdf-8849-cb39fe7f004b"
-          (reference "U9") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -661,7 +661,7 @@
   (symbol (lib_id "Device:C") (at 86.36 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db13b476-6427-4bd6-a9a5-fc8a5a096d45)
-    (property "Reference" "C39" (at 89.281 91.5416 0)
+    (property "Reference" "C22" (at 89.281 91.5416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 89.281 93.853 0)
@@ -681,7 +681,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/57884461-52ec-4fdf-8849-cb39fe7f004b"
-          (reference "C63") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -750,7 +750,7 @@
   (symbol (lib_id "Device:C") (at 142.24 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcfff92b-e103-42d0-be43-1c832fcd39c1)
-    (property "Reference" "C51" (at 145.161 83.9216 0)
+    (property "Reference" "C9" (at 145.161 83.9216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 145.161 86.233 0)
@@ -767,7 +767,7 @@
     (instances
       (project "Telemetry-Primary"
         (path "/7f2a449b-14af-42b3-8d38-5f0f8a5ee7ce/57884461-52ec-4fdf-8849-cb39fe7f004b"
-          (reference "C51") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "BPS-Leader"
