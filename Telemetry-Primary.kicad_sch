@@ -3715,8 +3715,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0a4ec8b0-78a3-42aa-9a3a-2fe2e86413e5)
   )
-  (text "2.1 - Removes the external RTC.\n	There's no need to use an external RTC on the telemetry board. The microcontroller itself\n	has an internal RTC that can be powered from the VBAT line and a 32.768kHz oscillator. \n	Courtesy of Chase!\n\n3.0 - New IO and Protection\n	- Bluetooth\n	- 4 buttons + 4 switches, HW debounced\n	- SPI breakout\n	- 2x GPIO breakout\n	- Power protection circuitry\n	- Better layout grouping\n	- RTC Battery is now a port\n	- Removed IMU\n\nFuture Changes\n-Add impedance matching resistor to Ethernet line, consider all impedance matching\n-PR Checklist"
-    (at 254 158.115 0)
+  (text "2.1 - Removes the external RTC.\n	There's no need to use an external RTC on the telemetry board. The microcontroller itself\n	has an internal RTC that can be powered from the VBAT line and a 32.768kHz oscillator. \n	Courtesy of Chase!\n\n3.0 - New IO and Protection\n	- Bluetooth\n	- 4 buttons + 4 switches, HW debounced\n	- SPI breakout\n	- 2x GPIO breakout\n	- Power protection circuitry\n	- Better layout grouping\n	- RTC Battery is now a port\n	- Removed IMU\n\nFuture Changes\n-Add impedance matching resistor to Ethernet line, SPI, gps antenna\n-Consider antenna placement and interferance, separate ground ???\n-move flashing pins to edge and drop down right side\n-PR Checklist"
+    (at 254 163.195 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 0baeba64-513c-4923-827c-15453c821d0b)
   )
